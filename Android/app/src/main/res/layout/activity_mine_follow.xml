@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.Main">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/mainSwipeRefreshLayout"
+        style="@style/Layout.SwipeRefresh"
+        android:layout_below="@+id/toolbarInclude"
+        android:layout_toLeftOf="@+id/mainSideBarView"
+        android:layout_toStartOf="@+id/mainSideBarView">
+
+        <ListView
+            android:id="@+id/mainListView"
+            style="@style/ListView.Main" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/mainLinearLayout"
+        style="@style/Layout.HeightWrap"
+        android:layout_below="@+id/toolbarInclude"
+        android:layout_toLeftOf="@+id/mainSideBarView"
+        android:layout_toStartOf="@+id/mainSideBarView"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/catalogTextView"
+            style="@style/TextView.Catalog" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialogTextView"
+        style="@style/TextView.Dialog"
+        android:layout_centerInParent="true" />
+
+    <top.yokey.gxsfxy.control.SideBarView
+        android:id="@+id/mainSideBarView"
+        android:layout_width="24dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/toolbarInclude" />
+
+    <TextView
+        android:id="@+id/tipsTextView"
+        style="@style/TextView.Tips"
+        android:layout_below="@+id/toolbarInclude" />
+
+    <include
+        android:id="@+id/toolbarInclude"
+        layout="@layout/include_toolbar" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Linear">
+
+    <LinearLayout
+        style="@style/Layout.Toolbar"
+        android:background="@color/main">
+
+        <ImageView
+            android:id="@+id/backImageView"
+            style="@style/ImageView.Toolbar"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/searchEditText"
+            style="@style/EditText.Search"
+            android:layout_height="36dip"
+            android:layout_gravity="center"
+            android:hint="搜索 好友/动态/电话" />
+
+        <ImageView
+            android:id="@+id/searchImageView"
+            style="@style/ImageView.Toolbar"
+            android:src="@mipmap/ic_action_search"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <include layout="@layout/include_list_view" />
+
+</LinearLayout>

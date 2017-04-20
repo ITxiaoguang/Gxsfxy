@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Main">
+
+    <include
+        android:id="@+id/toolbarInclude"
+        layout="@layout/include_toolbar" />
+
+    <WebView
+        android:id="@+id/mainWebView"
+        style="@style/WebView.Main"
+        android:layout_above="@+id/lineView"
+        android:layout_below="@+id/toolbarInclude" />
+
+    <ProgressBar
+        android:id="@+id/mainProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:layout_below="@+id/toolbarInclude" />
+
+    <View
+        android:id="@+id/lineView"
+        style="@style/View.Line"
+        android:layout_above="@+id/bottomLinearLayout" />
+
+    <LinearLayout
+        android:id="@+id/bottomLinearLayout"
+        style="@style/Layout.LinearHor"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/back1ImageView"
+            style="@style/ImageView.Browser"
+            android:src="@mipmap/ic_nav_browser_back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/nextImageView"
+            style="@style/ImageView.Browser"
+            android:src="@mipmap/ic_nav_browser_next" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/refreshImageView"
+            style="@style/ImageView.Browser"
+            android:src="@mipmap/ic_nav_browser_refresh" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/topImageView"
+            style="@style/ImageView.Browser"
+            android:src="@mipmap/ic_nav_browser_top" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/shareImageView"
+            style="@style/ImageView.Browser"
+            android:src="@mipmap/ic_nav_browser_share" />
+
+    </LinearLayout>
+
+</RelativeLayout>

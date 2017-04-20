@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <View style="@style/View.Line12" />
+
+    <RelativeLayout
+        android:id="@+id/avatarRelativeLayout"
+        style="@style/Layout.Tool"
+        android:layout_height="96dip">
+
+        <TextView
+            style="@style/TextView.ToolTitle"
+            android:layout_height="match_parent"
+            android:text="头像" />
+
+        <ImageView
+            android:id="@+id/avatarImageView"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_avatar"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <View style="@style/View.Line" />
+
+    <LinearLayout
+        android:id="@+id/nicknameLinearLayout"
+        style="@style/Layout.Tool">
+
+        <TextView
+            style="@style/TextView.ToolTitle"
+            android:text="昵称" />
+
+        <TextView
+            android:id="@+id/nicknameTextView"
+            style="@style/TextView.ToolValue" />
+
+    </LinearLayout>
+
+    <View style="@style/View.Line" />
+
+    <LinearLayout
+        android:id="@+id/qqLinearLayout"
+        style="@style/Layout.Tool">
+
+        <TextView
+            style="@style/TextView.ToolTitle"
+            android:text="Q  Q" />
+
+        <TextView
+            android:id="@+id/qqTextView"
+            style="@style/TextView.ToolValue" />
+
+    </LinearLayout>
+
+    <View style="@style/View.Line" />
+
+    <LinearLayout
+        android:id="@+id/signLinearLayout"
+        style="@style/Layout.Tool">
+
+        <TextView
+            style="@style/TextView.ToolTitle"
+            android:text="签名" />
+
+        <TextView
+            android:id="@+id/signTextView"
+            style="@style/TextView.ToolValue" />
+
+    </LinearLayout>
+
+    <View style="@style/View.Line" />
+
+    <LinearLayout
+        android:id="@+id/provinceLinearLayout"
+        style="@style/Layout.Tool">
+
+        <TextView
+            style="@style/TextView.ToolTitle"
+            android:text="省份" />
+
+        <TextView
+            android:id="@+id/provinceTextView"
+            style="@style/TextView.ToolValue" />
+
+    </LinearLayout>
+
+    <View style="@style/View.Line" />
+
+    <LinearLayout
+        android:id="@+id/cityLinearLayout"
+        style="@style/Layout.Tool">
+
+        <TextView
+            style="@style/TextView.ToolTitle"
+            android:text="城市" />
+
+        <TextView
+            android:id="@+id/cityTextView"
+            style="@style/TextView.ToolValue" />
+
+    </LinearLayout>
+
+    <View style="@style/View.Line" />
+
+    <LinearLayout
+        android:id="@+id/areaLinearLayout"
+        style="@style/Layout.Tool">
+
+        <TextView
+            style="@style/TextView.ToolTitle"
+            android:text="地区" />
+
+        <TextView
+            android:id="@+id/areaTextView"
+            style="@style/TextView.ToolValue" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/saveTextView"
+        style="@style/TextView.Button"
+        android:layout_margin="16dip"
+        android:text="保存修改" />
+
+</LinearLayout>

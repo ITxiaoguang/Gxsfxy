@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainRelativeLayout"
+    style="@style/Layout.Item">
+
+    <ImageView
+        android:id="@+id/avatarImageView"
+        style="@style/ImageView.ItemAvatar"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/nicknameTextView"
+        style="@style/TextView.ItemNickname"
+        android:layout_toEndOf="@+id/avatarImageView"
+        android:layout_toRightOf="@+id/avatarImageView" />
+
+    <ImageView
+        android:id="@+id/genderImageView"
+        style="@style/ImageView.Gender"
+        android:layout_alignBottom="@+id/nicknameTextView"
+        android:layout_alignTop="@+id/nicknameTextView"
+        android:layout_toEndOf="@+id/nicknameTextView"
+        android:layout_toRightOf="@+id/nicknameTextView"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/collegeTextView"
+        style="@style/TextView.ItemNickname"
+        android:layout_below="@+id/nicknameTextView"
+        android:layout_toEndOf="@+id/avatarImageView"
+        android:layout_toRightOf="@+id/avatarImageView"
+        android:textColor="@color/greyAdd"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/followTextView"
+        style="@style/TextView.ItemFollow"/>
+
+    <View
+        style="@style/View.Item"
+        android:layout_below="@+id/avatarImageView" />
+
+</RelativeLayout>

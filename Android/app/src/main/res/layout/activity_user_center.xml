@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <View style="@style/View.Line8" />
+
+    <RelativeLayout
+        style="@style/Layout.Item"
+        android:paddingBottom="12dip"
+        android:paddingTop="12dip">
+
+        <ImageView
+            android:id="@+id/avatarImageView"
+            style="@style/ImageView.Avatar"
+            android:layout_marginEnd="24dip"
+            android:layout_marginRight="24dip"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/nicknameTextView"
+            style="@style/TextView.ItemNickname"
+            android:layout_toEndOf="@+id/avatarImageView"
+            android:layout_toRightOf="@+id/avatarImageView" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/genderImageView"
+            style="@style/ImageView.Gender"
+            android:layout_alignBottom="@+id/nicknameTextView"
+            android:layout_alignTop="@+id/nicknameTextView"
+            android:layout_toEndOf="@+id/nicknameTextView"
+            android:layout_toRightOf="@+id/nicknameTextView" />
+
+        <TextView
+            android:id="@+id/collegeTextView"
+            style="@style/TextView.ItemNickname"
+            android:layout_below="@+id/nicknameTextView"
+            android:layout_marginTop="2dip"
+            android:layout_toEndOf="@+id/avatarImageView"
+            android:layout_toRightOf="@+id/avatarImageView"
+            android:textColor="@color/greyAdd"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/signTextView"
+            style="@style/TextView.ItemNickname"
+            android:layout_below="@+id/collegeTextView"
+            android:layout_marginTop="2dip"
+            android:layout_toEndOf="@+id/avatarImageView"
+            android:layout_toRightOf="@+id/avatarImageView"
+            android:ellipsize="end"
+            android:maxLength="16"
+            android:textColor="@color/greyAdd"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <View style="@style/View.Line8" />
+
+    <LinearLayout style="@style/Layout.LinearHor">
+
+        <TextView
+            android:id="@+id/mineFollowTextView"
+            style="@style/TextView.Mine" />
+
+        <View style="@style/View.LineHor" />
+
+        <TextView
+            android:id="@+id/followMineTextView"
+            style="@style/TextView.Mine" />
+
+        <View style="@style/View.LineHor" />
+
+        <TextView
+            android:id="@+id/visitorTextView"
+            style="@style/TextView.Mine" />
+
+    </LinearLayout>
+
+    <View style="@style/View.Line" />
+
+    <LinearLayout style="@style/Layout.LinearHor">
+
+        <TextView
+            android:id="@+id/dynamicTextView"
+            style="@style/TextView.Mine" />
+
+        <View style="@style/View.LineHor" />
+
+        <TextView
+            android:id="@+id/commentTextView"
+            style="@style/TextView.Mine" />
+
+        <View style="@style/View.LineHor" />
+
+        <TextView
+            android:id="@+id/praiseTextView"
+            style="@style/TextView.Mine" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/chatTextView"
+        style="@style/TextView.ItemFollow"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="16dip"
+        android:text="发送消息"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/followTextView"
+        style="@style/TextView.ItemFollow"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_margin="16dip"
+        android:text="不再关注"
+        android:textSize="16sp" />
+
+</LinearLayout>

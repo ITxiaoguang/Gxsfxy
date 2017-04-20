@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.HeightWrap"
+    android:background="@color/white"
+    android:paddingBottom="8dip"
+    android:paddingLeft="16dip"
+    android:paddingRight="16dip"
+    android:paddingTop="8dip"
+    tools:ignore="Overdraw">
+
+    <EditText
+        android:id="@+id/searchEditText"
+        style="@style/EditText.Search" />
+
+    <ImageView
+        android:id="@+id/searchImageView"
+        style="@style/ImageView.Search"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

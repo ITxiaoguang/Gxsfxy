@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Microsoft YaHei UI";
+}
+
+.shadow {
+    padding-top: 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0px 0px 4px #0E0F33;
+    -moz-box-shadow: 0px 0px 4px #0E0F33;
+    -webkit-box-shadow: 0px 0px 4px #0E0F33;
+}
+
+.shadow a {
+    color: #333333;
+    text-indent: 1em;
+    text-decoration: none;
+}
+
+.shadow p {
+    line-height: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #EEEEEE;
+}

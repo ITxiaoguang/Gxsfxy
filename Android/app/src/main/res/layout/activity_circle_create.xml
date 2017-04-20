@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <ScrollView style="@style/ScrollView.Main">
+
+        <LinearLayout style="@style/Layout.Linear">
+
+            <RelativeLayout style="@style/Layout.HeightWrap">
+
+                <EditText
+                    android:id="@+id/contentEditText"
+                    style="@style/EditText.Create" />
+
+                <ImageView
+                    android:id="@+id/faceImageView"
+                    style="@style/ImageView.Input"
+                    android:layout_width="56dip"
+                    android:layout_alignBottom="@+id/contentEditText"
+                    android:src="@mipmap/ic_input_face"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/calcTextView"
+                    style="@style/TextView.Calc"
+                    android:layout_alignBottom="@+id/faceImageView"
+                    android:layout_alignTop="@+id/faceImageView" />
+
+            </RelativeLayout>
+
+            <include layout="@layout/include_face" />
+
+            <View style="@style/View.Line" />
+
+            <TextView
+                android:id="@+id/locationTextView"
+                style="@style/TextView.Location"
+                android:background="@color/white" />
+
+            <View style="@style/View.Line8" />
+
+            <TextView
+                style="@style/TextView.TitleLeft"
+                android:text="图片信息" />
+
+            <View style="@style/View.Line" />
+
+            <LinearLayout
+                android:id="@+id/oneLinearLayout"
+                style="@style/Layout.LinearHor"
+                android:background="@color/white"
+                android:paddingBottom="4dip"
+                android:paddingEnd="8dip"
+                android:paddingLeft="16dip"
+                android:paddingRight="8dip"
+                android:paddingStart="16dip"
+                android:paddingTop="8dip">
+
+                <ImageView
+                    android:id="@+id/oneImageView"
+                    style="@style/ImageView.Upload"
+                    android:src="@mipmap/ic_upload_image"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/twoImageView"
+                    style="@style/ImageView.Upload"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/thrImageView"
+                    style="@style/ImageView.Upload"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/fouImageView"
+                    style="@style/ImageView.Upload"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/fivImageView"
+                    style="@style/ImageView.Upload"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/twoLinearLayout"
+                style="@style/Layout.LinearHor"
+                android:background="@color/white"
+                android:paddingBottom="8dip"
+                android:paddingEnd="8dip"
+                android:paddingLeft="16dip"
+                android:paddingRight="8dip"
+                android:paddingStart="16dip"
+                android:paddingTop="4dip">
+
+                <ImageView
+                    android:id="@+id/sixImageView"
+                    style="@style/ImageView.Upload"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/sevImageView"
+                    style="@style/ImageView.Upload"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/eigImageView"
+                    style="@style/ImageView.Upload"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/nigImageView"
+                    style="@style/ImageView.Upload"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/tenImageView"
+                    style="@style/ImageView.Upload"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

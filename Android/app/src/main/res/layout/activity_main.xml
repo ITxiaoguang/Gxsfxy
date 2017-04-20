@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainTabHost"
+    style="@style/Layout.Main">
+
+    <LinearLayout style="@style/Layout.Linear">
+
+        <LinearLayout
+            style="@style/Layout.Toolbar"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                style="@style/TextView.Toolbar"
+                android:paddingLeft="16dip"
+                android:paddingRight="16dip"
+                android:text="广西师范学院" />
+
+            <ImageView
+                android:id="@+id/searchImageView"
+                style="@style/ImageView.Toolbar"
+                android:src="@mipmap/ic_action_search"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                tools:ignore="ContentDescription"
+                android:id="@+id/scanImageView"
+                style="@style/ImageView.Toolbar"
+                android:src="@mipmap/ic_action_scan" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            style="@style/Layout.Main" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            style="@style/Layout.Main"
+            android:visibility="gone" />
+
+        <View style="@style/View.Line" />
+
+        <LinearLayout
+            style="@style/Layout.LinearHor"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/homeTextView"
+                style="@style/TextView.NavMain"
+                android:drawableTop="@mipmap/ic_nav_main_home_press"
+                android:text="首页"
+                android:textColor="@color/textPress" />
+
+            <TextView
+                android:id="@+id/messageTextView"
+                style="@style/TextView.NavMain"
+                android:drawableTop="@mipmap/ic_nav_main_message"
+                android:text="消息" />
+
+            <TextView
+                android:id="@+id/dynamicTextView"
+                style="@style/TextView.NavMain"
+                android:drawableTop="@mipmap/ic_nav_main_dynamic"
+                android:text="动态" />
+
+            <TextView
+                android:id="@+id/findTextView"
+                style="@style/TextView.NavMain"
+                android:drawableTop="@mipmap/ic_nav_main_find"
+                android:text="发现" />
+
+            <TextView
+                android:id="@+id/mineTextView"
+                style="@style/TextView.NavMain"
+                android:drawableTop="@mipmap/ic_nav_main_mine"
+                android:text="我的" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</TabHost>

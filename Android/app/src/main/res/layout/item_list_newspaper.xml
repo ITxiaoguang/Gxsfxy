@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.LinearHor"
+    android:paddingLeft="2dip"
+    android:paddingRight="2dip">
+
+    <RelativeLayout
+        android:id="@+id/hor1RelativeLayout"
+        style="@style/Layout.Two">
+
+        <ImageView
+            android:id="@+id/hor1ImageView"
+            style="@style/ImageView.Newspaper"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/hor1NameTextView"
+            style="@style/TextView.ItemName"
+            android:layout_below="@+id/hor1ImageView"
+            android:layout_marginTop="2dip" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hor2RelativeLayout"
+        style="@style/Layout.Two">
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/hor2ImageView"
+            style="@style/ImageView.Newspaper" />
+
+        <TextView
+            android:id="@+id/hor2NameTextView"
+            style="@style/TextView.ItemName"
+            android:layout_below="@+id/hor2ImageView"
+            android:layout_marginTop="2dip" />
+
+    </RelativeLayout>
+
+</LinearLayout>

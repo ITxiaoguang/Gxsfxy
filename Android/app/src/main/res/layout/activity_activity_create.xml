@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <View style="@style/View.Line8" />
+
+    <TextView
+        style="@style/TextView.TitleLeft"
+        android:text="发布活动请联系QQ：1002285057" />
+
+    <View style="@style/View.Line" />
+
+    <TextView
+        style="@style/TextView.TitleLeft"
+        android:text="或者点击拨打电话：15207713074" />
+
+    <TextView
+        android:id="@+id/qqTextView"
+        style="@style/TextView.Button"
+        android:layout_margin="16dip"
+        android:text="QQ 聊天" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        style="@style/TextView.Button"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:text="拨打电话" />
+
+</LinearLayout>

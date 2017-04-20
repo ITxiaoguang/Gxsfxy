@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Main">
+
+    <include layout="@layout/include_list_view" />
+
+    <RelativeLayout
+        android:id="@+id/loginRelativeLayout"
+        style="@style/Layout.Main"
+        android:background="@color/white">
+
+        <ImageView
+            style="@style/ImageView.LoginTips"
+            android:layout_above="@+id/loginTipsTextView"
+            android:src="@mipmap/ic_tips_login_message"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/loginTipsTextView"
+            style="@style/TextView.LoginTips"
+            android:text="登录后,别人给你发的消息\n评论都会展示在这里" />
+
+        <TextView
+            android:id="@+id/loginTextView"
+            style="@style/TextView.Login"
+            android:layout_below="@+id/loginTipsTextView" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

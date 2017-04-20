@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRelativeLayout"
+    style="@style/Layout.Item">
+
+    <TextView
+        android:id="@+id/mainTextView"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_marginEnd="8dip"
+        android:layout_marginRight="8dip"
+        android:background="@color/main"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        style="@style/TextView.ItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_toEndOf="@+id/mainTextView"
+        android:layout_toLeftOf="@+id/classTextView"
+        android:layout_toRightOf="@+id/mainTextView"
+        android:layout_toStartOf="@+id/classTextView" />
+
+    <TextView
+        android:id="@+id/addressTextView"
+        style="@style/TextView.ItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/nameTextView"
+        android:layout_marginTop="4dip"
+        android:layout_toEndOf="@+id/mainTextView"
+        android:layout_toRightOf="@+id/mainTextView"
+        android:textColor="@color/greyAdd"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/classTextView"
+        style="@style/TextView.ItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:maxLines="1"
+        android:textColor="@color/greyAdd"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/typeTextView"
+        style="@style/TextView.ItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/classTextView"
+        android:layout_marginTop="8dip"
+        android:textColor="@color/greyAdd"
+        android:textSize="12sp" />
+
+    <View
+        style="@style/View.Item"
+        android:layout_below="@+id/mainTextView" />
+
+</RelativeLayout>

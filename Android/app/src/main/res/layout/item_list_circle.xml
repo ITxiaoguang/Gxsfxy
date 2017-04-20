@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.HeightWrap"
+    android:paddingLeft="4dip"
+    android:paddingRight="4dip">
+
+    <android.support.v7.widget.CardView
+        style="@style/Layout.HeightWrap"
+        app:cardCornerRadius="2dip"
+        app:cardElevation="2dip"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:id="@+id/mainRelativeLayout"
+            style="@style/Layout.Card"
+            android:paddingBottom="4dip">
+
+            <ImageView
+                android:id="@+id/avatarImageView"
+                style="@style/ImageView.ItemAvatar"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/nicknameTextView"
+                style="@style/TextView.ItemNickname"
+                android:layout_toEndOf="@+id/avatarImageView"
+                android:layout_toRightOf="@+id/avatarImageView" />
+
+            <ImageView
+                android:id="@+id/genderImageView"
+                style="@style/ImageView.Gender"
+                android:layout_alignBottom="@+id/nicknameTextView"
+                android:layout_alignTop="@+id/nicknameTextView"
+                android:layout_toEndOf="@+id/nicknameTextView"
+                android:layout_toRightOf="@+id/nicknameTextView"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/deviceTextView"
+                style="@style/TextView.ItemTime"
+                android:layout_below="@+id/nicknameTextView"
+                android:layout_toEndOf="@+id/avatarImageView"
+                android:layout_toRightOf="@+id/avatarImageView"
+                android:paddingBottom="2dip"
+                android:paddingTop="2dip" />
+
+            <TextView
+                android:id="@+id/timeTextView"
+                style="@style/TextView.ItemTime"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" />
+
+            <ImageView
+                android:id="@+id/delImageView"
+                style="@style/ImageView.ItemDel"
+                android:layout_alignBottom="@+id/deviceTextView"
+                android:layout_below="@+id/timeTextView"
+                tools:ignore="ContentDescription" />
+
+            <View
+                android:id="@+id/lineView"
+                style="@style/View.Line"
+                android:layout_below="@+id/avatarImageView"
+                android:layout_marginTop="8dip" />
+
+            <TextView
+                android:id="@+id/contentTextView"
+                style="@style/TextView.ItemContent"
+                android:layout_below="@+id/lineView"
+                android:layout_marginTop="8dip" />
+
+            <LinearLayout
+                android:id="@+id/oneLinearLayout"
+                style="@style/Layout.LinearHor"
+                android:layout_below="@+id/contentTextView"
+                android:layout_marginTop="8dip">
+
+                <ImageView
+                    android:id="@+id/oneImageView"
+                    style="@style/ImageView.Content"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/twoImageView"
+                    style="@style/ImageView.Content"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/thrImageView"
+                    style="@style/ImageView.Content"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/twoLinearLayout"
+                style="@style/Layout.LinearHor"
+                android:layout_below="@+id/oneLinearLayout"
+                android:layout_marginTop="1dip">
+
+                <ImageView
+                    android:id="@+id/fouImageView"
+                    style="@style/ImageView.Content"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/fivImageView"
+                    style="@style/ImageView.Content"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/sixImageView"
+                    style="@style/ImageView.Content"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/thrLinearLayout"
+                style="@style/Layout.LinearHor"
+                android:layout_below="@+id/twoLinearLayout"
+                android:layout_marginTop="1dip">
+
+                <ImageView
+                    android:id="@+id/sevImageView"
+                    style="@style/ImageView.Content"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/eigImageView"
+                    style="@style/ImageView.Content"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/nigImageView"
+                    style="@style/ImageView.Content"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/locationTextView"
+                style="@style/TextView.Location"
+                android:layout_below="@+id/thrLinearLayout"
+                android:drawablePadding="4dip"
+                android:padding="0dip"
+                android:textSize="12sp" />
+
+            <View
+                android:id="@+id/line1View"
+                style="@style/View.Line"
+                android:layout_below="@+id/locationTextView" />
+
+            <LinearLayout
+                style="@style/Layout.LinearHor"
+                android:layout_height="32dip"
+                android:layout_below="@+id/line1View">
+
+                <top.yokey.gxsfxy.control.CenterTextView
+                    android:id="@+id/forwardTextView"
+                    style="@style/TextView.ItemTool"
+                    android:layout_height="32dip"
+                    android:drawableLeft="@mipmap/ic_tool_share"
+                    android:drawableStart="@mipmap/ic_tool_share"
+                    android:text="转发" />
+
+                <View style="@style/View.LineHor" />
+
+                <top.yokey.gxsfxy.control.CenterTextView
+                    android:id="@+id/commentTextView"
+                    style="@style/TextView.ItemTool"
+                    android:layout_height="32dip"
+                    android:drawableLeft="@mipmap/ic_tool_comment"
+                    android:drawableStart="@mipmap/ic_tool_comment" />
+
+                <View style="@style/View.LineHor" />
+
+                <top.yokey.gxsfxy.control.CenterTextView
+                    android:id="@+id/praiseTextView"
+                    style="@style/TextView.ItemTool"
+                    android:layout_height="32dip"
+                    android:drawableLeft="@mipmap/ic_tool_praise"
+                    android:drawableStart="@mipmap/ic_tool_praise" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

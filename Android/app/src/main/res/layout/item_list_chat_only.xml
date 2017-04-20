@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainRelativeLayout"
+    style="@style/Layout.HeightWrap"
+    android:padding="8dip">
+
+    <ImageView
+        android:id="@+id/friendAvatarImageView"
+        style="@style/ImageView.ItemAvatar"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:id="@+id/friendContentRelativeLayout"
+        style="@style/Layout.HeightWrap"
+        android:layout_toEndOf="@+id/friendAvatarImageView"
+        android:layout_toLeftOf="@+id/myAvatarImageView"
+        android:layout_toRightOf="@+id/friendAvatarImageView"
+        android:layout_toStartOf="@+id/myAvatarImageView"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/friendContentTextView"
+            style="@style/TextView.ItemMessageFriend" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/friendContentImageView"
+            style="@style/TextView.ItemMessageFriend"
+            android:layout_width="140dip"
+            android:layout_height="120dip" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/friendLocationRelativeLayout"
+        style="@style/Layout.HeightWrap"
+        android:layout_toEndOf="@+id/friendAvatarImageView"
+        android:layout_toLeftOf="@+id/myAvatarImageView"
+        android:layout_toRightOf="@+id/friendAvatarImageView"
+        android:layout_toStartOf="@+id/myAvatarImageView"
+        android:background="@drawable/bg_chat_friend"
+        android:padding="8dip"
+        android:visibility="gone">
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/friendLocationImageView"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/ic_item_location" />
+
+        <TextView
+            android:id="@+id/friendLocationTextView"
+            style="@style/TextView.TitleLeft"
+            android:layout_height="64dip"
+            android:layout_toLeftOf="@+id/friendLocationImageView"
+            android:layout_toStartOf="@+id/friendLocationImageView"
+            android:background="@null"
+            android:lineSpacingExtra="2dip"
+            android:maxLines="3"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip" />
+
+    </RelativeLayout>
+
+    <ImageView
+        tools:ignore="ContentDescription"
+        android:id="@+id/myAvatarImageView"
+        style="@style/ImageView.ItemAvatar"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="0dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="0dip"
+        android:layout_marginStart="8dip" />
+
+    <RelativeLayout
+        android:id="@+id/myContentRelativeLayout"
+        style="@style/Layout.HeightWrap"
+        android:layout_toEndOf="@+id/friendAvatarImageView"
+        android:layout_toLeftOf="@+id/myAvatarImageView"
+        android:layout_toRightOf="@+id/friendAvatarImageView"
+        android:layout_toStartOf="@+id/myAvatarImageView"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/myContentTextView"
+            style="@style/TextView.ItemMessageMy" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/myContentImageView"
+            style="@style/TextView.ItemMessageMy"
+            android:layout_width="140dip"
+            android:layout_height="120dip" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/myLocationRelativeLayout"
+        style="@style/Layout.HeightWrap"
+        android:layout_toEndOf="@+id/friendAvatarImageView"
+        android:layout_toLeftOf="@+id/myAvatarImageView"
+        android:layout_toRightOf="@+id/friendAvatarImageView"
+        android:layout_toStartOf="@+id/myAvatarImageView"
+        android:background="@drawable/bg_chat_my"
+        android:padding="8dip"
+        android:visibility="gone">
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/myLocationImageView"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:src="@mipmap/ic_item_location" />
+
+        <TextView
+            android:id="@+id/myLocationTextView"
+            style="@style/TextView.TitleLeft"
+            android:layout_height="64dip"
+            android:layout_toEndOf="@+id/myLocationImageView"
+            android:layout_toRightOf="@+id/myLocationImageView"
+            android:background="@null"
+            android:lineSpacingExtra="2dip"
+            android:maxLines="3"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

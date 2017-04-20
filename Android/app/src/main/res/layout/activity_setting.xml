@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <View style="@style/View.Line8" />
+
+    <LinearLayout style="@style/Layout.Tool">
+
+        <TextView
+            style="@style/TextView.ToolTitle"
+            android:text="新消息提醒" />
+
+        <CheckBox
+            android:id="@+id/messageNotifyCheckBox"
+            style="@style/CheckBox.Setting" />
+
+    </LinearLayout>
+
+    <View style="@style/View.Line" />
+
+    <LinearLayout style="@style/Layout.Tool">
+
+        <TextView
+            style="@style/TextView.ToolTitle"
+            android:text="省流量模式" />
+
+        <CheckBox
+            android:id="@+id/saveFlowCheckBox"
+            style="@style/CheckBox.Setting" />
+
+    </LinearLayout>
+
+    <View style="@style/View.Line8" />
+
+    <LinearLayout style="@style/Layout.Tool">
+
+        <TextView
+            style="@style/TextView.ToolTitle"
+            android:text="消息推送" />
+
+        <CheckBox
+            android:id="@+id/messagePushCheckBox"
+            style="@style/CheckBox.Setting" />
+
+    </LinearLayout>
+
+    <View style="@style/View.Line" />
+
+    <LinearLayout style="@style/Layout.Tool">
+
+        <TextView
+            style="@style/TextView.ToolTitle"
+            android:text="升级检测" />
+
+        <CheckBox
+            android:id="@+id/updateCheckCheckBox"
+            style="@style/CheckBox.Setting" />
+
+    </LinearLayout>
+
+</LinearLayout>

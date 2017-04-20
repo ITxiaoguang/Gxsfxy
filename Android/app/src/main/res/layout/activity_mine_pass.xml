@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <RelativeLayout
+        style="@style/Layout.Main"
+        android:background="@color/white"
+        android:paddingLeft="64dip"
+        android:paddingRight="64dip"
+        android:paddingTop="40dip">
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            style="@style/EditText.Password" />
+
+        <EditText
+            android:id="@+id/passwordNewEditText"
+            style="@style/EditText.Password"
+            android:layout_below="@+id/passwordEditText"
+            android:hint="请输入新的密码" />
+
+        <EditText
+            android:id="@+id/passwordRepeatEditText"
+            style="@style/EditText.Password"
+            android:layout_below="@id/passwordNewEditText"
+            android:hint="请再次输入新密码" />
+
+        <TextView
+            android:id="@+id/modifyTextView"
+            style="@style/TextView.Login"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/passwordRepeatEditText"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="8dip"
+            android:text="修 改" />
+
+    </RelativeLayout>
+
+</LinearLayout>

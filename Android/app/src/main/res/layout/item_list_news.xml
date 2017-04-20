@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainRelativeLayout"
+    style="@style/Layout.Item">
+
+    <ImageView
+        android:id="@+id/mainImageView"
+        style="@style/ImageView.ItemNews"
+        tools:ignore="ContentDescription" />
+
+    <View
+        style="@style/View.Item"
+        android:layout_below="@+id/mainImageView" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/TextView.ItemTitle"
+        android:layout_toEndOf="@+id/mainImageView"
+        android:layout_toRightOf="@+id/mainImageView" />
+
+    <TextView
+        android:id="@+id/commentTextView"
+        style="@style/TextView.ItemTool"
+        android:layout_alignBottom="@+id/mainImageView"
+        android:layout_margin="4dip"
+        android:layout_toEndOf="@+id/mainImageView"
+        android:layout_toRightOf="@+id/mainImageView"
+        android:drawableLeft="@mipmap/ic_tool_comment"
+        android:drawableStart="@mipmap/ic_tool_comment" />
+
+    <TextView
+        android:id="@+id/praiseTextView"
+        style="@style/TextView.ItemTool"
+        android:layout_alignBottom="@+id/commentTextView"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_toEndOf="@+id/commentTextView"
+        android:layout_toRightOf="@+id/commentTextView"
+        android:drawableLeft="@mipmap/ic_tool_praise"
+        android:drawableStart="@mipmap/ic_tool_praise" />
+
+    <TextView
+        android:id="@+id/clickTextView"
+        style="@style/TextView.ItemTool"
+        android:layout_alignBottom="@+id/commentTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip" />
+
+</RelativeLayout>

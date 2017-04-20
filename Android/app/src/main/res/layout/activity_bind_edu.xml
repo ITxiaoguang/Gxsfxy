@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <RelativeLayout
+        style="@style/Layout.Main"
+        android:background="@color/white"
+        android:paddingLeft="64dip"
+        android:paddingRight="64dip"
+        android:paddingTop="40dip">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            style="@style/ImageView.Logo"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/stuIdEditText"
+            style="@style/EditText.Username"
+            android:layout_below="@+id/logoImageView"
+            android:layout_marginTop="32dip"
+            android:hint="请输入您的学号" />
+
+        <EditText
+            android:id="@+id/stuPassEditText"
+            style="@style/EditText.Password"
+            android:layout_below="@+id/stuIdEditText" />
+
+        <TextView
+            android:id="@+id/bindTextView"
+            style="@style/TextView.Login"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/stuPassEditText"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="8dip"
+            android:text="绑定" />
+
+    </RelativeLayout>
+
+</LinearLayout>

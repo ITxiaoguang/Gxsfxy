@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainRelativeLayout"
+    style="@style/Layout.Item">
+
+    <ImageView
+        android:id="@+id/avatarImageView"
+        style="@style/ImageView.ItemAvatar"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/delImageView"
+        style="@style/ImageView.ItemDel"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/nicknameTextView"
+        style="@style/TextView.ItemNickname"
+        android:layout_toEndOf="@+id/avatarImageView"
+        android:layout_toRightOf="@+id/avatarImageView"
+        android:textColor="@color/greyAdd"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        style="@style/TextView.ItemTime"
+        android:layout_below="@+id/nicknameTextView"
+        android:layout_toEndOf="@+id/avatarImageView"
+        android:layout_toRightOf="@+id/avatarImageView"
+        android:paddingBottom="2dip"
+        android:paddingTop="2dip" />
+
+    <TextView
+        android:id="@+id/contentTextView"
+        style="@style/TextView.ItemContent"
+        android:layout_below="@+id/avatarImageView"
+        android:layout_toEndOf="@+id/avatarImageView"
+        android:layout_toRightOf="@+id/avatarImageView" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        style="@style/TextView.ItemReply"
+        android:layout_below="@+id/contentTextView"
+        android:layout_toEndOf="@+id/avatarImageView"
+        android:layout_toRightOf="@+id/avatarImageView" />
+
+    <View
+        style="@style/View.Item"
+        android:layout_below="@+id/nameTextView" />
+
+</RelativeLayout>

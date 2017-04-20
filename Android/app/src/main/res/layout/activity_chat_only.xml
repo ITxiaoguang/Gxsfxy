@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.Main">
+
+    <include
+        android:id="@+id/toolbarInclude"
+        layout="@layout/include_toolbar" />
+
+    <include
+        layout="@layout/include_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/inputInclude"
+        android:layout_below="@+id/toolbarInclude" />
+
+    <TextView
+        android:id="@+id/numberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/inputInclude"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/ic_tips_chat_only"
+        android:gravity="center"
+        android:maxLength="2"
+        android:paddingBottom="4dip"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/inputInclude"
+        layout="@layout/include_input_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

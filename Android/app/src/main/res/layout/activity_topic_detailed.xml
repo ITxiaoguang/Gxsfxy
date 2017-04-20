@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Main">
+
+    <include
+        android:id="@+id/toolbarInclude"
+        layout="@layout/include_toolbar" />
+
+    <top.yokey.gxsfxy.control.CustomScrollView
+        android:id="@+id/mainScrollView"
+        style="@style/ScrollView.Main"
+        android:layout_above="@+id/line1View"
+        android:layout_below="@+id/toolbarInclude">
+
+        <LinearLayout style="@style/Layout.Linear">
+
+            <RelativeLayout
+                android:id="@+id/mainRelativeLayout"
+                style="@style/Layout.Card"
+                android:paddingBottom="8dip">
+
+                <ImageView
+                    android:id="@+id/avatarImageView"
+                    style="@style/ImageView.ItemAvatar"
+                    android:layout_width="46dip"
+                    android:layout_height="46dip"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/nameTextView"
+                    style="@style/TextView.ItemNickname"
+                    android:layout_toEndOf="@+id/avatarImageView"
+                    android:layout_toRightOf="@+id/avatarImageView" />
+
+                <TextView
+                    android:id="@+id/contentTextView"
+                    style="@style/TextView.ItemTime"
+                    android:layout_below="@+id/nameTextView"
+                    android:layout_marginTop="2dip"
+                    android:layout_toEndOf="@+id/avatarImageView"
+                    android:layout_toRightOf="@+id/avatarImageView"
+                    android:textColor="@color/greyAdd"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/delImageView"
+                    style="@style/ImageView.ItemDel"
+                    tools:ignore="ContentDescription" />
+
+                <View
+                    android:id="@+id/lineView"
+                    style="@style/View.Line"
+                    android:layout_below="@+id/avatarImageView"
+                    android:layout_marginBottom="8dip"
+                    android:layout_marginTop="8dip" />
+
+                <TextView
+                    android:id="@+id/infoTextView"
+                    style="@style/TextView.ItemTime"
+                    android:layout_below="@+id/lineView"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/commentTextView"
+                style="@style/TextView.TitleLeft"
+                android:background="@color/whiteAdd"
+                android:text="评论列表" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/mainListView"
+                style="@style/ListView.Wrap" />
+
+        </LinearLayout>
+
+    </top.yokey.gxsfxy.control.CustomScrollView>
+
+    <View
+        android:id="@+id/line1View"
+        style="@style/View.Line"
+        android:layout_above="@+id/inputInclude" />
+
+    <include
+        android:id="@+id/inputInclude"
+        layout="@layout/include_input_detailed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

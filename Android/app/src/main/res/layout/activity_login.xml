@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <RelativeLayout
+        style="@style/Layout.Main"
+        android:background="@color/white"
+        android:paddingLeft="64dip"
+        android:paddingRight="64dip"
+        android:paddingTop="40dip">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            style="@style/ImageView.Logo"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            style="@style/EditText.Username"
+            android:layout_below="@+id/logoImageView"
+            android:layout_marginTop="32dip" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            style="@style/EditText.Password"
+            android:layout_below="@+id/usernameEditText" />
+
+        <TextView
+            android:id="@+id/loginTextView"
+            style="@style/TextView.Login"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/passwordEditText"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="8dip" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bcb515c6-91d5-4ab8-a646-2866ada0f96b" name="Default" comment="" />
+    <ignored path="GXSFXY.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="GXSFXY" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              <folding>
+                <element signature="e#1385#1435#0#PHP" expanded="false" />
+                <element signature="e#1456#1968#0#PHP" expanded="false" />
+                <element signature="e#1987#2766#0#PHP" expanded="false" />
+                <element signature="e#2424#2635#0#PHP" expanded="false" />
+                <element signature="e#2785#3522#0#PHP" expanded="false" />
+                <element signature="e#2826#3054#0#PHP" expanded="false" />
+                <element signature="e#3541#3824#0#PHP" expanded="false" />
+                <element signature="e#3582#3656#0#PHP" expanded="false" />
+                <element signature="e#3845#4999#0#PHP" expanded="false" />
+                <element signature="e#3885#3958#0#PHP" expanded="false" />
+                <element signature="e#4135#4993#0#PHP" expanded="false" />
+                <element signature="e#4247#4993#0#PHP" expanded="false" />
+                <element signature="e#5016#5269#0#PHP" expanded="false" />
+                <element signature="e#5288#5880#0#PHP" expanded="false" />
+                <element signature="e#5331#5476#0#PHP" expanded="false" />
+                <element signature="e#5485#5588#0#PHP" expanded="false" />
+                <element signature="e#5597#5705#0#PHP" expanded="false" />
+                <element signature="e#5899#6707#0#PHP" expanded="false" />
+                <element signature="e#6406#6701#0#PHP" expanded="false" />
+                <element signature="e#6639#6701#0#PHP" expanded="false" />
+                <element signature="e#6724#7779#0#PHP" expanded="false" />
+                <element signature="e#7630#7773#0#PHP" expanded="false" />
+                <element signature="e#7720#7773#0#PHP" expanded="false" />
+                <element signature="e#7799#8345#0#PHP" expanded="false" />
+                <element signature="e#7845#7917#0#PHP" expanded="false" />
+                <element signature="e#8365#9123#0#PHP" expanded="false" />
+                <element signature="e#8413#8510#0#PHP" expanded="false" />
+                <element signature="e#8645#9117#0#PHP" expanded="false" />
+                <element signature="e#9068#9117#0#PHP" expanded="false" />
+                <element signature="e#9142#9350#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/AdminController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/BaseController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8568">
+              <caret line="318" column="12" lean-forward="false" selection-start-line="318" selection-start-column="12" selection-end-line="318" selection-end-column="12" />
+              <folding>
+                <element signature="e#37#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMessageController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserMessageController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1443">
+              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <folding>
+                <marker date="1477457258000" expanded="true" signature="1744:1970" ph="SELECT * fro... *" />
+                <marker date="1477457258000" expanded="true" signature="1759:1797" ph="select * fro... follow" />
+                <marker date="1477457258000" expanded="true" signature="1853:1891" ph="select * fro... follow" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Mobile/Common/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="81" selection-end-column="1" />
+              <folding>
+                <element signature="n#outputData#0;n#!!top" expanded="false" />
+                <element signature="n#outputError#0;n#!!top" expanded="false" />
+                <element signature="n#sendMail#0;n#!!top" expanded="false" />
+                <element signature="n#sendNotifyIosAll#0;n#!!top" expanded="false" />
+                <element signature="e#1686#1730#0#PHP" expanded="false" />
+                <element signature="e#1855#1899#0#PHP" expanded="false" />
+                <element signature="e#1855#1985#0#PHP" expanded="false" />
+                <element signature="e#2088#2132#0#PHP" expanded="false" />
+                <element signature="e#2257#2312#0#PHP" expanded="false" />
+                <element signature="e#2257#2350#0#PHP" expanded="false" />
+                <element signature="e#2257#2406#0#PHP" expanded="false" />
+                <element signature="e#2257#2454#0#PHP" expanded="false" />
+                <element signature="n#sendNotifyAndroidAll#0;n#!!top" expanded="false" />
+                <element signature="e#2547#2591#0#PHP" expanded="false" />
+                <element signature="e#2716#2764#0#PHP" expanded="false" />
+                <element signature="e#2716#2854#0#PHP" expanded="false" />
+                <element signature="n#sendNotifyIosByPushId#0;n#!!top" expanded="false" />
+                <element signature="e#2978#3041#0#PHP" expanded="false" />
+                <element signature="e#3166#3210#0#PHP" expanded="false" />
+                <element signature="e#3166#3248#0#PHP" expanded="false" />
+                <element signature="e#3166#3307#0#PHP" expanded="false" />
+                <element signature="n#sendNotifyAndroidByPushId#0;n#!!top" expanded="false" />
+                <element signature="e#3435#3498#0#PHP" expanded="false" />
+                <element signature="e#3623#3671#0#PHP" expanded="false" />
+                <element signature="e#3623#3709#0#PHP" expanded="false" />
+                <element signature="e#3623#3772#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/FollowController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/LoginController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/PhoneController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Common/JPush/core/PushPayload.php" />
+        <option value="$PROJECT_DIR$/Public/html/mobile/college_index.html" />
+        <option value="$PROJECT_DIR$/Public/html/mobile/association_index.html" />
+        <option value="$PROJECT_DIR$/Public/html/mobile/help_android.html" />
+        <option value="$PROJECT_DIR$/Public/html/mobile/protocol_android.html" />
+        <option value="$PROJECT_DIR$/Public/html/mobile/about_android.html" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/UserModel.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/UserAdminController.class.php" />
+        <option value="$PROJECT_DIR$/Public/html/mobile/css/style.css" />
+        <option value="$PROJECT_DIR$/Public/html/mobile/summary.html" />
+        <option value="$PROJECT_DIR$/Public/html/mobile/college.html" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/UserUploadController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/AdminFeedbackController.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Conf/convention.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Common/function.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/AdminController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/ActivityModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/AreaModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/CommentModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/ConfigModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/FollowModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/GradeModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/LogModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/MessageModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/PhoneModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/PointsLogModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/PraiseModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/UploadModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/UserLogModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/UserTokenModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/VerifyModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/VisitorModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/UserMessageController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/AdminMessageController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/UserFollowController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/UserPraiseController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/UserCenterController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/UserController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/UserFriendController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/NewsModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/BaseController.class.php" />
+        <option value="$USER_HOME$/Desktop/man.model.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/DynamicModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/UserDynamicController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/UserCommentController.class.php" />
+        <option value="$USER_HOME$/Desktop/123/man.model.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Model/UserModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Mobile/Controller/AdminUserController.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="GXSFXY">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tpl" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Library" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Library" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Think" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Library" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Org" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Util" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Library" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Org" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Net" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Library" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Behavior" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lang" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mobile" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mobile" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mobile" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GXSFXY" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mobile" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chat" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\PHP\GXSFXY\Application\Mobile\Controller" />
+      <recent name="E:\Project\PHP\GXSFXY\Application\Mobile\Model" />
+      <recent name="E:\Project\PHP\GXSFXY\Public\html\mobile" />
+      <recent name="E:\Project\PHP\GXSFXY\ThinkPHP\Library\Vendor" />
+      <recent name="E:\Project\PHP\GXSFXY\Application\Mobile\Control" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\PHP\GXSFXY" />
+      <recent name="E:\Project\PHP\GXSFXY\Application\Mobile\Common" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcb515c6-91d5-4ab8-a646-2866ada0f96b" name="Default" comment="" />
+      <created>1467035145682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1467035145682</updated>
+      <workItem from="1467035147385" duration="764000" />
+      <workItem from="1467074917681" duration="1078000" />
+      <workItem from="1467076255513" duration="3149000" />
+      <workItem from="1467083695526" duration="11140000" />
+      <workItem from="1467161159566" duration="44000" />
+      <workItem from="1467170309096" duration="2317000" />
+      <workItem from="1467181673788" duration="4178000" />
+      <workItem from="1467336100087" duration="4001000" />
+      <workItem from="1467378269228" duration="718000" />
+      <workItem from="1467429462754" duration="2582000" />
+      <workItem from="1467454055736" duration="189000" />
+      <workItem from="1467465946070" duration="11000" />
+      <workItem from="1467466670714" duration="5262000" />
+      <workItem from="1467538623734" duration="1950000" />
+      <workItem from="1467554381029" duration="890000" />
+      <workItem from="1467625948599" duration="88000" />
+      <workItem from="1467770178178" duration="14342000" />
+      <workItem from="1467805428509" duration="89000" />
+      <workItem from="1467810903684" duration="4027000" />
+      <workItem from="1467855886315" duration="11004000" />
+      <workItem from="1467943703693" duration="6224000" />
+      <workItem from="1467966664307" duration="4176000" />
+      <workItem from="1467977795779" duration="293000" />
+      <workItem from="1468040971096" duration="4333000" />
+      <workItem from="1468075147404" duration="610000" />
+      <workItem from="1468225438657" duration="3861000" />
+      <workItem from="1468235534686" duration="2796000" />
+      <workItem from="1468285238321" duration="2206000" />
+      <workItem from="1468322071259" duration="5214000" />
+      <workItem from="1468391112370" duration="1295000" />
+      <workItem from="1468392626410" duration="3445000" />
+      <workItem from="1468408623505" duration="230000" />
+      <workItem from="1468409320804" duration="4088000" />
+      <workItem from="1468457278373" duration="2911000" />
+      <workItem from="1468493995501" duration="1203000" />
+      <workItem from="1468544535725" duration="9660000" />
+      <workItem from="1468589826140" duration="1261000" />
+      <workItem from="1468630566215" duration="7685000" />
+      <workItem from="1468667662756" duration="48000" />
+      <workItem from="1468678507306" duration="606000" />
+      <workItem from="1468850984274" duration="2449000" />
+      <workItem from="1468893044572" duration="1456000" />
+      <workItem from="1468909790999" duration="935000" />
+      <workItem from="1468912987216" duration="3395000" />
+      <workItem from="1468931931866" duration="1210000" />
+      <workItem from="1468976422788" duration="16000" />
+      <workItem from="1468976924259" duration="4999000" />
+      <workItem from="1468995069596" duration="2428000" />
+      <workItem from="1469092090817" duration="629000" />
+      <workItem from="1469151326317" duration="709000" />
+      <workItem from="1469153882519" duration="54000" />
+      <workItem from="1469174582326" duration="4423000" />
+      <workItem from="1469336472840" duration="427000" />
+      <workItem from="1469408887231" duration="3731000" />
+      <workItem from="1469494022648" duration="6488000" />
+      <workItem from="1469582575434" duration="10901000" />
+      <workItem from="1469675268795" duration="1783000" />
+      <workItem from="1469687448770" duration="4381000" />
+      <workItem from="1469764283822" duration="12917000" />
+      <workItem from="1469801763972" duration="2194000" />
+      <workItem from="1469840049310" duration="6623000" />
+      <workItem from="1469860489285" duration="7569000" />
+      <workItem from="1469887178617" duration="2689000" />
+      <workItem from="1469939077521" duration="2776000" />
+      <workItem from="1469977136963" duration="1093000" />
+      <workItem from="1470019745173" duration="8175000" />
+      <workItem from="1470052947688" duration="9451000" />
+      <workItem from="1470099509049" duration="8522000" />
+      <workItem from="1470148635123" duration="1411000" />
+      <workItem from="1470189812293" duration="11000" />
+      <workItem from="1470207985489" duration="4104000" />
+      <workItem from="1470223995787" duration="981000" />
+      <workItem from="1470272339775" duration="3825000" />
+      <workItem from="1470291350225" duration="595000" />
+      <workItem from="1470299684682" duration="3875000" />
+      <workItem from="1470311783513" duration="1869000" />
+      <workItem from="1470360052025" duration="2745000" />
+      <workItem from="1470556047587" duration="1509000" />
+      <workItem from="1470559187077" duration="82000" />
+      <workItem from="1470617883336" duration="14974000" />
+      <workItem from="1470705713864" duration="11087000" />
+      <workItem from="1470750294786" duration="1533000" />
+      <workItem from="1470791142633" duration="582000" />
+      <workItem from="1470808894664" duration="4740000" />
+      <workItem from="1470832429012" duration="703000" />
+      <workItem from="1470833968140" duration="599000" />
+      <workItem from="1470880975295" duration="6218000" />
+      <workItem from="1470968195804" duration="4252000" />
+      <workItem from="1470984919123" duration="9059000" />
+      <workItem from="1471049658375" duration="6990000" />
+      <workItem from="1471099685358" duration="1029000" />
+      <workItem from="1471145211474" duration="129000" />
+      <workItem from="1471223947818" duration="4497000" />
+      <workItem from="1471241199882" duration="4702000" />
+      <workItem from="1471406376261" duration="1335000" />
+      <workItem from="1471408550919" duration="63000" />
+      <workItem from="1471439727045" duration="8000" />
+      <workItem from="1471710922639" duration="41000" />
+      <workItem from="1471792136780" duration="78000" />
+      <workItem from="1471943442080" duration="696000" />
+      <workItem from="1471951452637" duration="600000" />
+      <workItem from="1472061112551" duration="31270000" />
+      <workItem from="1472181071256" duration="8233000" />
+      <workItem from="1472198699311" duration="8642000" />
+      <workItem from="1472235370958" duration="4470000" />
+      <workItem from="1472269883563" duration="1588000" />
+      <workItem from="1472293122212" duration="3567000" />
+      <workItem from="1472349081791" duration="6714000" />
+      <workItem from="1472412473197" duration="618000" />
+      <workItem from="1472440562086" duration="3029000" />
+      <workItem from="1472799583654" duration="10000" />
+      <workItem from="1473336912001" duration="1612000" />
+      <workItem from="1473601268942" duration="5843000" />
+      <workItem from="1473655678839" duration="127000" />
+      <workItem from="1473655988223" duration="502000" />
+      <workItem from="1474730984078" duration="1241000" />
+      <workItem from="1474805383561" duration="649000" />
+      <workItem from="1474807621078" duration="2195000" />
+      <workItem from="1474845860224" duration="624000" />
+      <workItem from="1474893627257" duration="75000" />
+      <workItem from="1474904740269" duration="15000" />
+      <workItem from="1475042983178" duration="604000" />
+      <workItem from="1475166004358" duration="445000" />
+      <workItem from="1475752272730" duration="393000" />
+      <workItem from="1475842730495" duration="1215000" />
+      <workItem from="1475984016690" duration="606000" />
+      <workItem from="1476002762777" duration="645000" />
+      <workItem from="1477415502893" duration="428000" />
+      <workItem from="1477455291575" duration="3757000" />
+      <workItem from="1477469366542" duration="2926000" />
+      <workItem from="1477580583366" duration="632000" />
+      <workItem from="1477838217645" duration="44000" />
+      <workItem from="1477840296864" duration="77000" />
+      <workItem from="1477841476500" duration="11000" />
+      <workItem from="1477841521152" duration="2622000" />
+      <workItem from="1477918029860" duration="71000" />
+      <workItem from="1477929067729" duration="41000" />
+      <workItem from="1479099712131" duration="410000" />
+      <workItem from="1479110793753" duration="249000" />
+      <workItem from="1479132565055" duration="437000" />
+      <workItem from="1479148991602" duration="257000" />
+      <workItem from="1481465832816" duration="253000" />
+      <workItem from="1481598264722" duration="2157000" />
+      <workItem from="1481700402776" duration="33000" />
+      <workItem from="1481700552775" duration="659000" />
+      <workItem from="1481872568702" duration="19000" />
+      <workItem from="1482314957145" duration="48000" />
+      <workItem from="1482422782967" duration="1216000" />
+      <workItem from="1482473606038" duration="1552000" />
+      <workItem from="1482856810128" duration="941000" />
+      <workItem from="1482911508320" duration="8000" />
+      <workItem from="1482987935132" duration="36000" />
+      <workItem from="1482987980496" duration="7000" />
+      <workItem from="1483335579346" duration="42000" />
+      <workItem from="1486902305369" duration="986000" />
+      <workItem from="1486951638963" duration="41000" />
+      <workItem from="1486952296653" duration="1060000" />
+      <workItem from="1487228741409" duration="612000" />
+      <workItem from="1487431553133" duration="250000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="444127000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12148438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659933" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Model/UserTokenModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Model/UserModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/AdminMessageController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="105" column="62" lean-forward="false" selection-start-line="105" selection-start-column="62" selection-end-line="105" selection-end-column="62" />
+          <folding>
+            <marker date="1477457258000" expanded="true" signature="1352:1415" ph="SELECT DISTI... message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/AdminUserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="42" lean-forward="false" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/BaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#outputData#0;n#!!top" expanded="false" />
+            <element signature="n#outputError#0;n#!!top" expanded="false" />
+            <element signature="n#sendMail#0;n#!!top" expanded="false" />
+            <element signature="n#sendNotifyIosAll#0;n#!!top" expanded="false" />
+            <element signature="e#1686#1730#0#PHP" expanded="false" />
+            <element signature="e#1855#1899#0#PHP" expanded="false" />
+            <element signature="e#1855#1985#0#PHP" expanded="false" />
+            <element signature="e#2088#2132#0#PHP" expanded="false" />
+            <element signature="e#2257#2312#0#PHP" expanded="false" />
+            <element signature="e#2257#2350#0#PHP" expanded="false" />
+            <element signature="e#2257#2406#0#PHP" expanded="false" />
+            <element signature="e#2257#2454#0#PHP" expanded="false" />
+            <element signature="n#sendNotifyAndroidAll#0;n#!!top" expanded="false" />
+            <element signature="e#2547#2591#0#PHP" expanded="false" />
+            <element signature="e#2716#2764#0#PHP" expanded="false" />
+            <element signature="e#2716#2854#0#PHP" expanded="false" />
+            <element signature="n#sendNotifyIosByPushId#0;n#!!top" expanded="false" />
+            <element signature="e#2978#3041#0#PHP" expanded="false" />
+            <element signature="e#3166#3210#0#PHP" expanded="false" />
+            <element signature="e#3166#3248#0#PHP" expanded="false" />
+            <element signature="e#3166#3307#0#PHP" expanded="false" />
+            <element signature="n#sendNotifyAndroidByPushId#0;n#!!top" expanded="false" />
+            <element signature="e#3435#3498#0#PHP" expanded="false" />
+            <element signature="e#3623#3671#0#PHP" expanded="false" />
+            <element signature="e#3623#3709#0#PHP" expanded="false" />
+            <element signature="e#3623#3772#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#outputData#0;n#!!top" expanded="false" />
+            <element signature="n#outputError#0;n#!!top" expanded="false" />
+            <element signature="n#sendMail#0;n#!!top" expanded="false" />
+            <element signature="n#sendNotifyIosAll#0;n#!!top" expanded="false" />
+            <element signature="e#1686#1730#0#PHP" expanded="false" />
+            <element signature="e#1855#1899#0#PHP" expanded="false" />
+            <element signature="e#1855#1985#0#PHP" expanded="false" />
+            <element signature="e#2088#2132#0#PHP" expanded="false" />
+            <element signature="e#2257#2312#0#PHP" expanded="false" />
+            <element signature="e#2257#2350#0#PHP" expanded="false" />
+            <element signature="e#2257#2406#0#PHP" expanded="false" />
+            <element signature="e#2257#2454#0#PHP" expanded="false" />
+            <element signature="n#sendNotifyAndroidAll#0;n#!!top" expanded="false" />
+            <element signature="e#2547#2591#0#PHP" expanded="false" />
+            <element signature="e#2716#2764#0#PHP" expanded="false" />
+            <element signature="e#2716#2854#0#PHP" expanded="false" />
+            <element signature="n#sendNotifyIosByPushId#0;n#!!top" expanded="false" />
+            <element signature="e#2978#3041#0#PHP" expanded="false" />
+            <element signature="e#3166#3210#0#PHP" expanded="false" />
+            <element signature="e#3166#3248#0#PHP" expanded="false" />
+            <element signature="e#3166#3307#0#PHP" expanded="false" />
+            <element signature="n#sendNotifyAndroidByPushId#0;n#!!top" expanded="false" />
+            <element signature="e#3435#3498#0#PHP" expanded="false" />
+            <element signature="e#3623#3671#0#PHP" expanded="false" />
+            <element signature="e#3623#3709#0#PHP" expanded="false" />
+            <element signature="e#3623#3772#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#outputData#0;n#!!top" expanded="false" />
+            <element signature="n#outputError#0;n#!!top" expanded="false" />
+            <element signature="n#sendMail#0;n#!!top" expanded="false" />
+            <element signature="n#sendNotifyIosAll#0;n#!!top" expanded="false" />
+            <element signature="e#1686#1730#0#PHP" expanded="false" />
+            <element signature="e#1855#1899#0#PHP" expanded="false" />
+            <element signature="e#1855#1985#0#PHP" expanded="false" />
+            <element signature="e#2088#2132#0#PHP" expanded="false" />
+            <element signature="e#2257#2312#0#PHP" expanded="false" />
+            <element signature="e#2257#2350#0#PHP" expanded="false" />
+            <element signature="e#2257#2406#0#PHP" expanded="false" />
+            <element signature="e#2257#2454#0#PHP" expanded="false" />
+            <element signature="n#sendNotifyAndroidAll#0;n#!!top" expanded="false" />
+            <element signature="e#2547#2591#0#PHP" expanded="false" />
+            <element signature="e#2716#2764#0#PHP" expanded="false" />
+            <element signature="e#2716#2854#0#PHP" expanded="false" />
+            <element signature="n#sendNotifyIosByPushId#0;n#!!top" expanded="false" />
+            <element signature="e#2978#3041#0#PHP" expanded="false" />
+            <element signature="e#3166#3210#0#PHP" expanded="false" />
+            <element signature="e#3166#3248#0#PHP" expanded="false" />
+            <element signature="e#3166#3307#0#PHP" expanded="false" />
+            <element signature="n#sendNotifyAndroidByPushId#0;n#!!top" expanded="false" />
+            <element signature="e#3435#3498#0#PHP" expanded="false" />
+            <element signature="e#3623#3671#0#PHP" expanded="false" />
+            <element signature="e#3623#3709#0#PHP" expanded="false" />
+            <element signature="e#3623#3772#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/123/man.model.php" />
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/AdminUserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/AdminUserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/AdminUserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Model/NewsModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/AdminUserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1809">
+          <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserCommentController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="67" column="85" lean-forward="false" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Model/NewsModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/AdminUserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1809">
+          <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserCommentController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserUploadController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserPraiseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="49" column="63" lean-forward="false" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserCenterController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="75" column="63" lean-forward="false" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Model/NewsModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/man.model.php" />
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Model/DynamicModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Model/CommentModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserCommentController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="242" column="9" lean-forward="false" selection-start-line="242" selection-start-column="9" selection-end-line="242" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/123/man.model.php" />
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Common/JPush/JPush.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Common/JPush/core/SchedulePayload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Common/JPush/core/ReportPayload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Common/JPush/core/PushPayload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Common/JPush/core/JPushException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Common/JPush/core/DevicePayload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserFollowController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="102" column="63" lean-forward="false" selection-start-line="102" selection-start-column="63" selection-end-line="102" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserFriendController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserDynamicController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="75" column="28" lean-forward="false" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/AdminMessageController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="105" column="62" lean-forward="false" selection-start-line="105" selection-start-column="62" selection-end-line="105" selection-end-column="62" />
+          <folding>
+            <marker date="1477457258000" expanded="true" signature="1352:1415" ph="SELECT DISTI... message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Model/VisitorModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Model/VerifyModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Model/UserTokenModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/AdminUserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Common/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="1495" column="0" lean-forward="false" selection-start-line="1495" selection-start-column="0" selection-end-line="1518" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Model/UserModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="177" column="20" lean-forward="false" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#1385#1435#0#PHP" expanded="false" />
+            <element signature="e#1456#1968#0#PHP" expanded="false" />
+            <element signature="e#1987#2766#0#PHP" expanded="false" />
+            <element signature="e#2424#2635#0#PHP" expanded="false" />
+            <element signature="e#2785#3522#0#PHP" expanded="false" />
+            <element signature="e#2826#3054#0#PHP" expanded="false" />
+            <element signature="e#3541#3824#0#PHP" expanded="false" />
+            <element signature="e#3582#3656#0#PHP" expanded="false" />
+            <element signature="e#3845#4999#0#PHP" expanded="false" />
+            <element signature="e#3885#3958#0#PHP" expanded="false" />
+            <element signature="e#4135#4993#0#PHP" expanded="false" />
+            <element signature="e#4247#4993#0#PHP" expanded="false" />
+            <element signature="e#5016#5269#0#PHP" expanded="false" />
+            <element signature="e#5288#5880#0#PHP" expanded="false" />
+            <element signature="e#5331#5476#0#PHP" expanded="false" />
+            <element signature="e#5485#5588#0#PHP" expanded="false" />
+            <element signature="e#5597#5705#0#PHP" expanded="false" />
+            <element signature="e#5899#6707#0#PHP" expanded="false" />
+            <element signature="e#6406#6701#0#PHP" expanded="false" />
+            <element signature="e#6639#6701#0#PHP" expanded="false" />
+            <element signature="e#6724#7779#0#PHP" expanded="false" />
+            <element signature="e#7630#7773#0#PHP" expanded="false" />
+            <element signature="e#7720#7773#0#PHP" expanded="false" />
+            <element signature="e#7799#8345#0#PHP" expanded="false" />
+            <element signature="e#7845#7917#0#PHP" expanded="false" />
+            <element signature="e#8365#9123#0#PHP" expanded="false" />
+            <element signature="e#8413#8510#0#PHP" expanded="false" />
+            <element signature="e#8645#9117#0#PHP" expanded="false" />
+            <element signature="e#9068#9117#0#PHP" expanded="false" />
+            <element signature="e#9142#9350#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/BaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8568">
+          <caret line="318" column="12" lean-forward="false" selection-start-line="318" selection-start-column="12" selection-end-line="318" selection-end-column="12" />
+          <folding>
+            <element signature="e#37#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="81" selection-end-column="1" />
+          <folding>
+            <element signature="n#outputData#0;n#!!top" expanded="false" />
+            <element signature="n#outputError#0;n#!!top" expanded="false" />
+            <element signature="n#sendMail#0;n#!!top" expanded="false" />
+            <element signature="n#sendNotifyIosAll#0;n#!!top" expanded="false" />
+            <element signature="e#1686#1730#0#PHP" expanded="false" />
+            <element signature="e#1855#1899#0#PHP" expanded="false" />
+            <element signature="e#1855#1985#0#PHP" expanded="false" />
+            <element signature="e#2088#2132#0#PHP" expanded="false" />
+            <element signature="e#2257#2312#0#PHP" expanded="false" />
+            <element signature="e#2257#2350#0#PHP" expanded="false" />
+            <element signature="e#2257#2406#0#PHP" expanded="false" />
+            <element signature="e#2257#2454#0#PHP" expanded="false" />
+            <element signature="n#sendNotifyAndroidAll#0;n#!!top" expanded="false" />
+            <element signature="e#2547#2591#0#PHP" expanded="false" />
+            <element signature="e#2716#2764#0#PHP" expanded="false" />
+            <element signature="e#2716#2854#0#PHP" expanded="false" />
+            <element signature="n#sendNotifyIosByPushId#0;n#!!top" expanded="false" />
+            <element signature="e#2978#3041#0#PHP" expanded="false" />
+            <element signature="e#3166#3210#0#PHP" expanded="false" />
+            <element signature="e#3166#3248#0#PHP" expanded="false" />
+            <element signature="e#3166#3307#0#PHP" expanded="false" />
+            <element signature="n#sendNotifyAndroidByPushId#0;n#!!top" expanded="false" />
+            <element signature="e#3435#3498#0#PHP" expanded="false" />
+            <element signature="e#3623#3671#0#PHP" expanded="false" />
+            <element signature="e#3623#3709#0#PHP" expanded="false" />
+            <element signature="e#3623#3772#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Mobile/Controller/UserMessageController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1443">
+          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <marker date="1477457258000" expanded="true" signature="1744:1970" ph="SELECT * fro... *" />
+            <marker date="1477457258000" expanded="true" signature="1759:1797" ph="select * fro... follow" />
+            <marker date="1477457258000" expanded="true" signature="1853:1891" ph="select * fro... follow" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

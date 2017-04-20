@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <ScrollView style="@style/ScrollView.Main">
+
+        <LinearLayout style="@style/Layout.Linear">
+
+            <RelativeLayout style="@style/Layout.HeightWrap">
+
+                <EditText
+                    android:id="@+id/titleEditText"
+                    style="@style/EditText.Create"
+                    android:hint="请输入标题"
+                    android:maxLines="2"
+                    android:paddingBottom="16dip" />
+
+                <View
+                    android:id="@+id/lineView"
+                    style="@style/View.Line8"
+                    android:layout_below="@+id/titleEditText" />
+
+                <EditText
+                    android:id="@+id/contentEditText"
+                    style="@style/EditText.Create"
+                    android:layout_below="@+id/lineView" />
+
+                <ImageView
+                    tools:ignore="ContentDescription"
+                    android:id="@+id/faceImageView"
+                    style="@style/ImageView.Input"
+                    android:layout_width="56dip"
+                    android:layout_alignBottom="@+id/contentEditText"
+                    android:src="@mipmap/ic_input_face" />
+
+                <TextView
+                    android:id="@+id/calcTextView"
+                    style="@style/TextView.Calc"
+                    android:layout_alignBottom="@+id/faceImageView"
+                    android:layout_alignTop="@+id/faceImageView" />
+
+            </RelativeLayout>
+
+            <include layout="@layout/include_face" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

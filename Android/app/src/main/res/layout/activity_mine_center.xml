@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <ScrollView style="@style/ScrollView.Main">
+
+        <LinearLayout style="@style/Layout.Linear">
+
+            <RelativeLayout
+                style="@style/Layout.HeightWrap"
+                android:background="@color/main"
+                android:paddingBottom="16dip"
+                android:paddingLeft="16dip"
+                android:paddingRight="16dip"
+                android:paddingTop="4dip">
+
+                <ImageView
+                    android:id="@+id/avatarImageView"
+                    style="@style/ImageView.Avatar"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/nicknameTextView"
+                    style="@style/TextView.Nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dip"
+                    android:layout_toEndOf="@+id/avatarImageView"
+                    android:layout_toRightOf="@+id/avatarImageView" />
+
+                <ImageView
+                    android:id="@+id/genderImageView"
+                    style="@style/ImageView.Gender"
+                    android:layout_alignBottom="@+id/nicknameTextView"
+                    android:layout_alignTop="@+id/nicknameTextView"
+                    android:layout_toEndOf="@+id/nicknameTextView"
+                    android:layout_toRightOf="@+id/nicknameTextView"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/qrCodeImageView"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:layout_alignLeft="@+id/nicknameTextView"
+                    android:layout_alignStart="@+id/nicknameTextView"
+                    android:layout_below="@+id/nicknameTextView"
+                    android:layout_marginTop="4dip"
+                    android:src="@mipmap/ic_action_qr_code"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/loginTextView"
+                    style="@style/TextView.MineCenter"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/avatarImageView"
+                    android:layout_marginTop="4dip" />
+
+                <TextView
+                    android:id="@+id/loginLastTextView"
+                    style="@style/TextView.MineCenter"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/loginTextView"
+                    android:layout_marginTop="4dip" />
+
+            </RelativeLayout>
+
+            <LinearLayout style="@style/Layout.LinearHor">
+
+                <TextView
+                    android:id="@+id/passwordTextView"
+                    style="@style/TextView.UserCenter"
+                    android:drawableTop="@mipmap/ic_user_center_password_bind"
+                    android:text="登录密码" />
+
+                <TextView
+                    android:id="@+id/mobileTextView"
+                    style="@style/TextView.UserCenter"
+                    android:drawableTop="@mipmap/ic_user_center_mobile_bind"
+                    android:text="手机绑定" />
+
+                <TextView
+                    android:id="@+id/emailTextView"
+                    style="@style/TextView.UserCenter"
+                    android:drawableTop="@mipmap/ic_user_center_email"
+                    android:text="邮箱绑定" />
+
+                <TextView
+                    android:id="@+id/eduTextView"
+                    style="@style/TextView.UserCenter"
+                    android:drawableTop="@mipmap/ic_user_center_edu"
+                    android:text="教务账号" />
+
+            </LinearLayout>
+
+            <View style="@style/View.Line8" />
+
+            <LinearLayout
+                android:id="@+id/qqLinearLayout"
+                style="@style/Layout.Tool">
+
+                <TextView
+                    style="@style/TextView.ToolTitle"
+                    android:text="Q  Q" />
+
+                <TextView
+                    android:id="@+id/qqTextView"
+                    style="@style/TextView.ToolValue" />
+
+            </LinearLayout>
+
+            <View style="@style/View.Line" />
+
+            <LinearLayout
+                android:id="@+id/signLinearLayout"
+                style="@style/Layout.Tool">
+
+                <TextView
+                    style="@style/TextView.ToolTitle"
+                    android:text="签名" />
+
+                <TextView
+                    android:id="@+id/signTextView"
+                    style="@style/TextView.ToolValue" />
+
+            </LinearLayout>
+
+            <View style="@style/View.Line" />
+
+            <LinearLayout
+                android:id="@+id/provinceLinearLayout"
+                style="@style/Layout.Tool">
+
+                <TextView
+                    style="@style/TextView.ToolTitle"
+                    android:text="省份" />
+
+                <TextView
+                    android:id="@+id/provinceTextView"
+                    style="@style/TextView.ToolValue" />
+
+            </LinearLayout>
+
+            <View style="@style/View.Line" />
+
+            <LinearLayout
+                android:id="@+id/cityLinearLayout"
+                style="@style/Layout.Tool">
+
+                <TextView
+                    style="@style/TextView.ToolTitle"
+                    android:text="城市" />
+
+                <TextView
+                    android:id="@+id/cityTextView"
+                    style="@style/TextView.ToolValue" />
+
+            </LinearLayout>
+
+            <View style="@style/View.Line" />
+
+            <LinearLayout
+                android:id="@+id/areaLinearLayout"
+                style="@style/Layout.Tool">
+
+                <TextView
+                    style="@style/TextView.ToolTitle"
+                    android:text="地区" />
+
+                <TextView
+                    android:id="@+id/areaTextView"
+                    style="@style/TextView.ToolValue" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/logoutTextView"
+                style="@style/TextView.Button"
+                android:layout_margin="16dip"
+                android:text="注销登录" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

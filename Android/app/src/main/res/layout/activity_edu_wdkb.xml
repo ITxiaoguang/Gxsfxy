@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Linear">
+
+    <LinearLayout
+        android:id="@+id/toolbarLinearLayout"
+        style="@style/Layout.Toolbar">
+
+        <ImageView
+            android:id="@+id/backImageView"
+            style="@style/ImageView.Toolbar"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            style="@style/TextView.Toolbar" />
+
+        <ImageView
+            android:id="@+id/moreImageView"
+            style="@style/ImageView.Toolbar"
+            android:src="@null"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/Layout.Main"
+        android:layout_below="@+id/toolbarLinearLayout"
+        android:background="@mipmap/bg_schedule">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            style="@style/ScrollView.Main"
+            android:background="@null">
+
+            <ScrollView
+                android:id="@+id/verticalScrollView"
+                style="@style/ScrollView.Main">
+
+                <RelativeLayout
+                    android:id="@+id/scrollRelativeLayout"
+                    style="@style/Layout.Main"
+                    android:background="@color/transparent">
+
+                    <TextView
+                        android:id="@+id/dayOneTextView"
+                        style="@style/TextView.ScheduleHor"
+                        android:layout_marginLeft="26dip"
+                        android:layout_marginStart="26dip"
+                        android:text="星期一" />
+
+                    <TextView
+                        android:id="@+id/dayTwoTextView"
+                        style="@style/TextView.ScheduleHor"
+                        android:layout_toEndOf="@+id/dayOneTextView"
+                        android:layout_toRightOf="@+id/dayOneTextView"
+                        android:text="星期二" />
+
+                    <TextView
+                        android:id="@+id/dayThrTextView"
+                        style="@style/TextView.ScheduleHor"
+                        android:layout_toEndOf="@+id/dayTwoTextView"
+                        android:layout_toRightOf="@+id/dayTwoTextView"
+                        android:text="星期三" />
+
+                    <TextView
+                        android:id="@+id/dayFouTextView"
+                        style="@style/TextView.ScheduleHor"
+                        android:layout_toEndOf="@+id/dayThrTextView"
+                        android:layout_toRightOf="@+id/dayThrTextView"
+                        android:text="星期四" />
+
+                    <TextView
+                        android:id="@+id/dayFivTextView"
+                        style="@style/TextView.ScheduleHor"
+                        android:layout_toEndOf="@+id/dayFouTextView"
+                        android:layout_toRightOf="@+id/dayFouTextView"
+                        android:text="星期五" />
+
+                    <TextView
+                        android:id="@+id/daySixTextView"
+                        style="@style/TextView.ScheduleHor"
+                        android:layout_toEndOf="@id/dayFivTextView"
+                        android:layout_toRightOf="@+id/dayFivTextView"
+                        android:text="星期六" />
+
+                    <TextView
+                        android:id="@+id/daySevTextView"
+                        style="@style/TextView.ScheduleHor"
+                        android:layout_toEndOf="@+id/daySixTextView"
+                        android:layout_toRightOf="@+id/daySixTextView"
+                        android:text="星期日" />
+
+                    <TextView
+                        android:id="@+id/classOneTextView"
+                        style="@style/TextView.ScheduleVer"
+                        android:layout_marginTop="26dip"
+                        android:text="一" />
+
+                    <TextView
+                        android:id="@+id/classTwoTextView"
+                        style="@style/TextView.ScheduleVer"
+                        android:layout_below="@+id/classOneTextView"
+                        android:text="二" />
+
+                    <TextView
+                        android:id="@+id/classThrTextView"
+                        style="@style/TextView.ScheduleVer"
+                        android:layout_below="@+id/classTwoTextView"
+                        android:text="三" />
+
+                    <TextView
+                        android:id="@+id/classFouTextView"
+                        style="@style/TextView.ScheduleVer"
+                        android:layout_below="@+id/classThrTextView"
+                        android:text="四" />
+
+                    <TextView
+                        android:id="@+id/classFivTextView"
+                        style="@style/TextView.ScheduleVer"
+                        android:layout_below="@+id/classFouTextView"
+                        android:text="五" />
+
+                    <TextView
+                        android:id="@+id/classSixTextView"
+                        style="@style/TextView.ScheduleVer"
+                        android:layout_below="@+id/classFivTextView"
+                        android:text="六" />
+
+                    <TextView
+                        android:id="@+id/oneOneTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classTwoTextView"
+                        android:layout_below="@+id/dayOneTextView"
+                        android:layout_toEndOf="@+id/classOneTextView"
+                        android:layout_toLeftOf="@+id/dayTwoTextView"
+                        android:layout_toRightOf="@+id/classOneTextView"
+                        android:layout_toStartOf="@+id/dayTwoTextView" />
+
+                    <TextView
+                        android:id="@+id/oneTwoTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classTwoTextView"
+                        android:layout_below="@+id/dayTwoTextView"
+                        android:layout_toEndOf="@+id/oneOneTextView"
+                        android:layout_toLeftOf="@+id/dayThrTextView"
+                        android:layout_toRightOf="@+id/oneOneTextView"
+                        android:layout_toStartOf="@+id/dayThrTextView" />
+
+                    <TextView
+                        android:id="@+id/oneThrTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/twoOneTextView"
+                        android:layout_below="@+id/dayThrTextView"
+                        android:layout_toEndOf="@+id/oneTwoTextView"
+                        android:layout_toLeftOf="@+id/dayFouTextView"
+                        android:layout_toRightOf="@+id/oneTwoTextView"
+                        android:layout_toStartOf="@+id/dayFouTextView" />
+
+                    <TextView
+                        android:id="@+id/oneFouTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classTwoTextView"
+                        android:layout_below="@+id/dayFouTextView"
+                        android:layout_toEndOf="@+id/oneThrTextView"
+                        android:layout_toLeftOf="@+id/dayFivTextView"
+                        android:layout_toRightOf="@+id/oneThrTextView"
+                        android:layout_toStartOf="@+id/dayFivTextView" />
+
+                    <TextView
+                        android:id="@+id/oneFivTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classTwoTextView"
+                        android:layout_below="@+id/dayFivTextView"
+                        android:layout_toEndOf="@+id/oneFouTextView"
+                        android:layout_toLeftOf="@+id/daySixTextView"
+                        android:layout_toRightOf="@+id/oneFouTextView"
+                        android:layout_toStartOf="@+id/daySixTextView" />
+
+                    <TextView
+                        android:id="@+id/oneSixTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classTwoTextView"
+                        android:layout_below="@+id/daySixTextView"
+                        android:layout_toEndOf="@+id/oneFivTextView"
+                        android:layout_toLeftOf="@+id/daySevTextView"
+                        android:layout_toRightOf="@+id/oneFivTextView"
+                        android:layout_toStartOf="@+id/daySevTextView" />
+
+                    <TextView
+                        android:id="@+id/oneSevTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classTwoTextView"
+                        android:layout_alignEnd="@+id/daySevTextView"
+                        android:layout_alignRight="@+id/daySevTextView"
+                        android:layout_below="@+id/daySevTextView"
+                        android:layout_toEndOf="@+id/oneSixTextView"
+                        android:layout_toRightOf="@+id/oneSixTextView" />
+
+                    <TextView
+                        android:id="@+id/twoOneTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classThrTextView"
+                        android:layout_below="@+id/oneOneTextView"
+                        android:layout_toEndOf="@+id/classTwoTextView"
+                        android:layout_toLeftOf="@+id/oneTwoTextView"
+                        android:layout_toRightOf="@+id/classTwoTextView"
+                        android:layout_toStartOf="@+id/oneTwoTextView" />
+
+                    <TextView
+                        android:id="@+id/twoTwoTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classThrTextView"
+                        android:layout_below="@+id/oneTwoTextView"
+                        android:layout_toEndOf="@+id/twoOneTextView"
+                        android:layout_toLeftOf="@+id/oneThrTextView"
+                        android:layout_toRightOf="@+id/twoOneTextView"
+                        android:layout_toStartOf="@+id/oneThrTextView" />
+
+                    <TextView
+                        android:id="@+id/twoThrTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classThrTextView"
+                        android:layout_below="@+id/oneThrTextView"
+                        android:layout_toEndOf="@+id/twoTwoTextView"
+                        android:layout_toLeftOf="@+id/oneFouTextView"
+                        android:layout_toRightOf="@+id/twoTwoTextView"
+                        android:layout_toStartOf="@+id/oneFouTextView" />
+
+                    <TextView
+                        android:id="@+id/twoFouTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classThrTextView"
+                        android:layout_below="@+id/oneFouTextView"
+                        android:layout_toEndOf="@+id/twoThrTextView"
+                        android:layout_toLeftOf="@+id/oneFivTextView"
+                        android:layout_toRightOf="@+id/twoThrTextView"
+                        android:layout_toStartOf="@+id/oneFivTextView" />
+
+                    <TextView
+                        android:id="@+id/twoFivTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classThrTextView"
+                        android:layout_below="@+id/oneFivTextView"
+                        android:layout_toEndOf="@+id/twoFouTextView"
+                        android:layout_toLeftOf="@+id/oneSixTextView"
+                        android:layout_toRightOf="@+id/twoFouTextView"
+                        android:layout_toStartOf="@+id/oneSixTextView" />
+
+                    <TextView
+                        android:id="@+id/twoSixTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classThrTextView"
+                        android:layout_below="@+id/oneSixTextView"
+                        android:layout_toEndOf="@+id/twoFivTextView"
+                        android:layout_toLeftOf="@+id/oneSevTextView"
+                        android:layout_toRightOf="@+id/twoFivTextView"
+                        android:layout_toStartOf="@+id/oneSevTextView" />
+
+                    <TextView
+                        android:id="@+id/twoSevTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classThrTextView"
+                        android:layout_alignEnd="@+id/daySevTextView"
+                        android:layout_alignRight="@+id/daySevTextView"
+                        android:layout_below="@+id/oneSevTextView"
+                        android:layout_toEndOf="@+id/twoSixTextView"
+                        android:layout_toRightOf="@+id/twoSixTextView" />
+
+                    <TextView
+                        android:id="@+id/thrOneTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFouTextView"
+                        android:layout_below="@+id/twoOneTextView"
+                        android:layout_toEndOf="@+id/classThrTextView"
+                        android:layout_toLeftOf="@+id/twoTwoTextView"
+                        android:layout_toRightOf="@+id/classThrTextView"
+                        android:layout_toStartOf="@+id/twoTwoTextView" />
+
+                    <TextView
+                        android:id="@+id/thrTwoTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFouTextView"
+                        android:layout_below="@+id/twoTwoTextView"
+                        android:layout_toEndOf="@+id/thrOneTextView"
+                        android:layout_toLeftOf="@+id/twoThrTextView"
+                        android:layout_toRightOf="@+id/thrOneTextView"
+                        android:layout_toStartOf="@+id/twoThrTextView" />
+
+                    <TextView
+                        android:id="@+id/thrThrTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFouTextView"
+                        android:layout_below="@+id/twoThrTextView"
+                        android:layout_toEndOf="@+id/thrTwoTextView"
+                        android:layout_toLeftOf="@+id/twoFouTextView"
+                        android:layout_toRightOf="@+id/thrTwoTextView"
+                        android:layout_toStartOf="@+id/twoFouTextView" />
+
+                    <TextView
+                        android:id="@+id/thrFouTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFouTextView"
+                        android:layout_below="@+id/twoFouTextView"
+                        android:layout_toEndOf="@+id/thrThrTextView"
+                        android:layout_toLeftOf="@+id/twoFivTextView"
+                        android:layout_toRightOf="@+id/thrThrTextView"
+                        android:layout_toStartOf="@+id/twoFivTextView" />
+
+                    <TextView
+                        android:id="@+id/thrFivTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFouTextView"
+                        android:layout_below="@+id/twoFivTextView"
+                        android:layout_toEndOf="@+id/thrFouTextView"
+                        android:layout_toLeftOf="@+id/twoSixTextView"
+                        android:layout_toRightOf="@+id/thrFouTextView"
+                        android:layout_toStartOf="@+id/twoSixTextView" />
+
+                    <TextView
+                        android:id="@+id/thrSixTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFouTextView"
+                        android:layout_below="@+id/twoSixTextView"
+                        android:layout_toEndOf="@+id/thrFivTextView"
+                        android:layout_toLeftOf="@+id/twoSevTextView"
+                        android:layout_toRightOf="@+id/thrFivTextView"
+                        android:layout_toStartOf="@+id/twoSevTextView" />
+
+                    <TextView
+                        android:id="@+id/thrSevTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFouTextView"
+                        android:layout_alignEnd="@+id/daySevTextView"
+                        android:layout_alignRight="@+id/daySevTextView"
+                        android:layout_below="@+id/twoSevTextView"
+                        android:layout_toEndOf="@+id/thrSixTextView"
+                        android:layout_toRightOf="@+id/thrSixTextView" />
+
+                    <TextView
+                        android:id="@+id/fouOneTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFivTextView"
+                        android:layout_below="@+id/thrOneTextView"
+                        android:layout_toEndOf="@+id/classFouTextView"
+                        android:layout_toLeftOf="@+id/thrTwoTextView"
+                        android:layout_toRightOf="@+id/classFouTextView"
+                        android:layout_toStartOf="@+id/thrTwoTextView" />
+
+                    <TextView
+                        android:id="@+id/fouTwoTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFivTextView"
+                        android:layout_below="@+id/thrTwoTextView"
+                        android:layout_toEndOf="@+id/fouOneTextView"
+                        android:layout_toLeftOf="@+id/thrThrTextView"
+                        android:layout_toRightOf="@+id/fouOneTextView"
+                        android:layout_toStartOf="@+id/thrThrTextView" />
+
+                    <TextView
+                        android:id="@+id/fouThrTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFivTextView"
+                        android:layout_below="@+id/thrThrTextView"
+                        android:layout_toEndOf="@+id/fouTwoTextView"
+                        android:layout_toLeftOf="@+id/thrFouTextView"
+                        android:layout_toRightOf="@+id/fouTwoTextView"
+                        android:layout_toStartOf="@+id/thrFouTextView" />
+
+                    <TextView
+                        android:id="@+id/fouFouTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFivTextView"
+                        android:layout_below="@+id/thrFouTextView"
+                        android:layout_toEndOf="@+id/fouThrTextView"
+                        android:layout_toLeftOf="@+id/thrFivTextView"
+                        android:layout_toRightOf="@+id/fouThrTextView"
+                        android:layout_toStartOf="@+id/thrFivTextView" />
+
+                    <TextView
+                        android:id="@+id/fouFivTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFivTextView"
+                        android:layout_below="@+id/thrFivTextView"
+                        android:layout_toEndOf="@+id/fouFouTextView"
+                        android:layout_toLeftOf="@+id/thrSixTextView"
+                        android:layout_toRightOf="@+id/fouFouTextView"
+                        android:layout_toStartOf="@+id/thrSixTextView" />
+
+                    <TextView
+                        android:id="@+id/fouSixTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFivTextView"
+                        android:layout_below="@+id/thrSixTextView"
+                        android:layout_toEndOf="@+id/fouFivTextView"
+                        android:layout_toLeftOf="@+id/thrSevTextView"
+                        android:layout_toRightOf="@+id/fouFivTextView"
+                        android:layout_toStartOf="@+id/thrSevTextView" />
+
+                    <TextView
+                        android:id="@+id/fouSevTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classFivTextView"
+                        android:layout_alignEnd="@+id/daySevTextView"
+                        android:layout_alignRight="@+id/daySevTextView"
+                        android:layout_below="@+id/thrSevTextView"
+                        android:layout_toEndOf="@+id/fouSixTextView"
+                        android:layout_toRightOf="@+id/fouSixTextView" />
+
+                    <TextView
+                        android:id="@+id/fivOneTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classSixTextView"
+                        android:layout_below="@+id/fouOneTextView"
+                        android:layout_toEndOf="@+id/classFivTextView"
+                        android:layout_toLeftOf="@+id/fouTwoTextView"
+                        android:layout_toRightOf="@+id/classFivTextView"
+                        android:layout_toStartOf="@+id/fouTwoTextView" />
+
+                    <TextView
+                        android:id="@+id/fivTwoTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classSixTextView"
+                        android:layout_below="@+id/fouTwoTextView"
+                        android:layout_toEndOf="@+id/fivOneTextView"
+                        android:layout_toLeftOf="@+id/fouThrTextView"
+                        android:layout_toRightOf="@+id/fivOneTextView"
+                        android:layout_toStartOf="@+id/fouThrTextView" />
+
+                    <TextView
+                        android:id="@+id/fivThrTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classSixTextView"
+                        android:layout_below="@+id/fouThrTextView"
+                        android:layout_toEndOf="@+id/fivTwoTextView"
+                        android:layout_toLeftOf="@+id/fouFouTextView"
+                        android:layout_toRightOf="@+id/fivTwoTextView"
+                        android:layout_toStartOf="@+id/fouFouTextView" />
+
+                    <TextView
+                        android:id="@+id/fivFouTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classSixTextView"
+                        android:layout_below="@+id/fouFouTextView"
+                        android:layout_toEndOf="@+id/fivThrTextView"
+                        android:layout_toLeftOf="@+id/fouFivTextView"
+                        android:layout_toRightOf="@+id/fivThrTextView"
+                        android:layout_toStartOf="@+id/fouFivTextView" />
+
+                    <TextView
+                        android:id="@+id/fivFivTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classSixTextView"
+                        android:layout_below="@+id/fouFivTextView"
+                        android:layout_toEndOf="@+id/fivFouTextView"
+                        android:layout_toLeftOf="@+id/fouSixTextView"
+                        android:layout_toRightOf="@+id/fivFouTextView"
+                        android:layout_toStartOf="@+id/fouSixTextView" />
+
+                    <TextView
+                        android:id="@+id/fivSixTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classSixTextView"
+                        android:layout_below="@+id/fouSixTextView"
+                        android:layout_toEndOf="@+id/fivFivTextView"
+                        android:layout_toLeftOf="@+id/fouSevTextView"
+                        android:layout_toRightOf="@+id/fivFivTextView"
+                        android:layout_toStartOf="@+id/fouSevTextView" />
+
+                    <TextView
+                        android:id="@+id/fivSevTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_above="@+id/classSixTextView"
+                        android:layout_alignEnd="@+id/daySevTextView"
+                        android:layout_alignRight="@+id/daySevTextView"
+                        android:layout_below="@+id/fouSevTextView"
+                        android:layout_toEndOf="@+id/fivSixTextView"
+                        android:layout_toRightOf="@+id/fivSixTextView" />
+
+                    <TextView
+                        android:id="@+id/sixOneTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_alignBottom="@+id/classSixTextView"
+                        android:layout_below="@+id/fivOneTextView"
+                        android:layout_toEndOf="@+id/classSixTextView"
+                        android:layout_toLeftOf="@+id/fivTwoTextView"
+                        android:layout_toRightOf="@+id/classSixTextView"
+                        android:layout_toStartOf="@+id/fivTwoTextView" />
+
+                    <TextView
+                        android:id="@+id/sixTwoTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_alignBottom="@+id/classSixTextView"
+                        android:layout_below="@+id/fivTwoTextView"
+                        android:layout_toEndOf="@+id/sixOneTextView"
+                        android:layout_toLeftOf="@+id/fivThrTextView"
+                        android:layout_toRightOf="@+id/sixOneTextView"
+                        android:layout_toStartOf="@+id/fivThrTextView" />
+
+                    <TextView
+                        android:id="@+id/sixThrTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_alignBottom="@+id/classSixTextView"
+                        android:layout_below="@+id/fivThrTextView"
+                        android:layout_toEndOf="@+id/sixTwoTextView"
+                        android:layout_toLeftOf="@+id/fivFouTextView"
+                        android:layout_toRightOf="@+id/sixTwoTextView"
+                        android:layout_toStartOf="@+id/fivFouTextView" />
+
+                    <TextView
+                        android:id="@+id/sixFouTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_alignBottom="@+id/classSixTextView"
+                        android:layout_below="@+id/fivFouTextView"
+                        android:layout_toEndOf="@+id/sixThrTextView"
+                        android:layout_toLeftOf="@+id/fivFivTextView"
+                        android:layout_toRightOf="@+id/sixThrTextView"
+                        android:layout_toStartOf="@+id/fivFivTextView" />
+
+                    <TextView
+                        android:id="@+id/sixFivTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_alignBottom="@+id/classSixTextView"
+                        android:layout_below="@+id/fivFivTextView"
+                        android:layout_toEndOf="@+id/sixFouTextView"
+                        android:layout_toLeftOf="@+id/fivSixTextView"
+                        android:layout_toRightOf="@+id/sixFouTextView"
+                        android:layout_toStartOf="@+id/fivSixTextView" />
+
+                    <TextView
+                        android:id="@+id/sixSixTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_alignBottom="@+id/classSixTextView"
+                        android:layout_below="@+id/fivSixTextView"
+                        android:layout_toEndOf="@+id/sixFivTextView"
+                        android:layout_toLeftOf="@+id/fivSevTextView"
+                        android:layout_toRightOf="@+id/sixFivTextView"
+                        android:layout_toStartOf="@+id/fivSevTextView" />
+
+                    <TextView
+                        android:id="@+id/sixSevTextView"
+                        style="@style/TextView.Schedule"
+                        android:layout_alignBottom="@+id/classSixTextView"
+                        android:layout_alignEnd="@+id/daySevTextView"
+                        android:layout_alignRight="@+id/daySevTextView"
+                        android:layout_below="@+id/fivSevTextView"
+                        android:layout_toEndOf="@+id/sixSixTextView"
+                        android:layout_toRightOf="@+id/sixSixTextView" />
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.Linear">
+
+    <include
+        android:id="@+id/toolbarInclude"
+        layout="@layout/include_toolbar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mainListView"
+        style="@style/ListView.Main"
+        android:layout_below="@+id/toolbarInclude" />
+
+    <RelativeLayout
+        android:id="@+id/mainRelativeLayout"
+        style="@style/Layout.Main"
+        android:layout_below="@+id/toolbarInclude"
+        android:background="@color/white"
+        android:padding="32dip"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/timeTextView"
+            style="@style/TextView.EduCJCX"
+            android:text="开课时间：" />
+
+        <Spinner
+            android:id="@+id/timeSpinner"
+            style="@style/Spinner.EduCjcx"
+            android:layout_toEndOf="@+id/timeTextView"
+            android:layout_toRightOf="@+id/timeTextView" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            style="@style/TextView.EduCJCX"
+            android:layout_below="@+id/timeTextView"
+            android:text="课程名称：" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            style="@style/EditText.EduCJCX"
+            android:layout_below="@+id/timeSpinner"
+            android:layout_toEndOf="@+id/nameTextView"
+            android:layout_toRightOf="@+id/nameTextView" />
+
+        <TextView
+            android:id="@+id/queryTextView"
+            style="@style/TextView.Button"
+            android:layout_below="@+id/nameTextView"
+            android:layout_marginTop="12dip"
+            android:text="查 询" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

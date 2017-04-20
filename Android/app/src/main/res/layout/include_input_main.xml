@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.HeightWrap"
+    android:orientation="vertical">
+
+    <View style="@style/View.Line" />
+
+    <LinearLayout
+        style="@style/View.LineHor"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:paddingBottom="4dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingTop="4dip">
+
+        <ImageView
+            android:id="@+id/voiceImageView"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@mipmap/ic_input_voice"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/faceImageView"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@mipmap/ic_input_face" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/locationImageView"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@mipmap/ic_input_location" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/imageImageView"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@mipmap/ic_input_image" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/cameraImageView"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@mipmap/ic_input_camera" />
+
+    </LinearLayout>
+
+    <View style="@style/View.Line" />
+
+    <LinearLayout style="@style/Layout.Input">
+
+        <EditText
+            android:id="@+id/contentEditText"
+            style="@style/EditText.Input"
+            android:layout_marginLeft="8dip"
+            android:layout_marginStart="8dip"
+            android:paddingLeft="8dip"
+            android:paddingRight="8dip" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/sendImageView"
+            style="@style/ImageView.Input"
+            android:src="@mipmap/ic_send" />
+
+    </LinearLayout>
+
+    <View style="@style/View.Line" />
+
+    <include layout="@layout/include_face" />
+
+</LinearLayout>

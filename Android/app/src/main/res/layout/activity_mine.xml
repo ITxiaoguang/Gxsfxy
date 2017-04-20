@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Main">
+
+    <ScrollView style="@style/ScrollView.Main">
+
+        <LinearLayout style="@style/Layout.Linear">
+
+            <RelativeLayout
+                android:id="@+id/mineRelativeLayout"
+                style="@style/Layout.HeightWrap"
+                android:background="@color/main"
+                android:paddingBottom="16dip">
+
+                <ImageView
+                    android:id="@+id/avatarImageView"
+                    style="@style/ImageView.Avatar"
+                    android:layout_marginEnd="8dip"
+                    android:layout_marginLeft="16dip"
+                    android:layout_marginRight="8dip"
+                    android:layout_marginStart="16dip"
+                    android:layout_marginTop="12dip"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/nicknameTextView"
+                    style="@style/TextView.Nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dip"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/qrCodeImageView"
+                    android:paddingLeft="12dip"
+                    android:paddingRight="12dip" />
+
+                <ImageView
+                    android:id="@+id/genderImageView"
+                    style="@style/ImageView.Gender"
+                    android:layout_alignBottom="@+id/nicknameTextView"
+                    android:layout_alignTop="@+id/nicknameTextView"
+                    android:layout_toLeftOf="@+id/nicknameTextView"
+                    android:layout_toStartOf="@+id/nicknameTextView"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/qrCodeImageView"
+                    style="@style/ImageView.Toolbar"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/ic_action_qr_code"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+            <LinearLayout style="@style/Layout.LinearHor">
+
+                <TextView
+                    android:id="@+id/mineFollowTextView"
+                    style="@style/TextView.Mine" />
+
+                <View style="@style/View.LineHor" />
+
+                <TextView
+                    android:id="@+id/followMineTextView"
+                    style="@style/TextView.Mine" />
+
+                <View style="@style/View.LineHor" />
+
+                <TextView
+                    android:id="@+id/visitorTextView"
+                    style="@style/TextView.Mine" />
+
+            </LinearLayout>
+
+            <View style="@style/View.Line" />
+
+            <LinearLayout style="@style/Layout.LinearHor">
+
+                <TextView
+                    android:id="@+id/dynamicTextView"
+                    style="@style/TextView.Mine" />
+
+                <View style="@style/View.LineHor" />
+
+                <TextView
+                    android:id="@+id/commentTextView"
+                    style="@style/TextView.Mine" />
+
+                <View style="@style/View.LineHor" />
+
+                <TextView
+                    android:id="@+id/praiseTextView"
+                    style="@style/TextView.Mine" />
+
+            </LinearLayout>
+
+            <View style="@style/View.Line8" />
+
+            <LinearLayout
+                android:id="@+id/pointsLinearLayout"
+                style="@style/Layout.ToolValue">
+
+                <TextView
+                    style="@style/TextView.ToolTitle"
+                    android:drawableLeft="@mipmap/ic_mine_points"
+                    android:drawableStart="@mipmap/ic_mine_points"
+                    android:text="我的积分" />
+
+                <TextView
+                    android:id="@+id/pointsTextView"
+                    style="@style/TextView.ToolValue1"
+                    android:textColor="@color/greyAdd" />
+
+            </LinearLayout>
+
+            <View style="@style/View.Line8" />
+
+            <TextView
+                android:id="@+id/feedbackTextView"
+                style="@style/TextView.TitleMine"
+                android:drawableLeft="@mipmap/ic_mine_opinion"
+                android:drawableStart="@mipmap/ic_mine_opinion"
+                android:text="意见建议" />
+
+            <View style="@style/View.Line" />
+
+            <TextView
+                android:id="@+id/settingTextView"
+                style="@style/TextView.TitleMine"
+                android:drawableLeft="@mipmap/ic_mine_setting"
+                android:drawableStart="@mipmap/ic_mine_setting"
+                android:text="程序设置" />
+
+            <View style="@style/View.Line8" />
+
+            <TextView
+                android:id="@+id/helpTextView"
+                style="@style/TextView.TitleMine"
+                android:drawableLeft="@mipmap/ic_mine_help"
+                android:drawableStart="@mipmap/ic_mine_help"
+                android:text="使用帮助" />
+
+            <View style="@style/View.Line" />
+
+            <TextView
+                android:id="@+id/protocolTextView"
+                style="@style/TextView.TitleMine"
+                android:drawableLeft="@mipmap/ic_mine_protocol"
+                android:drawableStart="@mipmap/ic_mine_protocol"
+                android:text="使用协议" />
+
+            <View style="@style/View.Line" />
+
+            <TextView
+                android:id="@+id/aboutTextView"
+                style="@style/TextView.TitleMine"
+                android:drawableLeft="@mipmap/ic_mine_about"
+                android:drawableStart="@mipmap/ic_mine_about"
+                android:text="关于我们" />
+
+            <View style="@style/View.Line8" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/loginRelativeLayout"
+        style="@style/Layout.Main"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <ImageView
+            style="@style/ImageView.LoginTips"
+            android:layout_above="@+id/loginTipsTextView"
+            android:src="@mipmap/ic_tips_login_mine"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/loginTipsTextView"
+            style="@style/TextView.LoginTips"
+            android:text="登录账号,享受更多特权\n登录后,才能用个人中心哦" />
+
+        <TextView
+            android:id="@+id/loginTextView"
+            style="@style/TextView.Login"
+            android:layout_below="@+id/loginTipsTextView" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

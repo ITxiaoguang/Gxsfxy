@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <RelativeLayout
+        style="@style/Layout.Main"
+        android:padding="64dip">
+
+        <EditText
+            android:id="@+id/emailEditText"
+            style="@style/EditText.Username"
+            android:hint="请输入邮箱地址"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/getTextView"
+            style="@style/TextView.Login"
+            android:layout_width="48dip"
+            android:layout_height="24dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="12dip"
+            android:text="获取"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/verifyEditText"
+            style="@style/EditText.Username"
+            android:layout_below="@+id/emailEditText"
+            android:hint="请输入验证码" />
+
+        <TextView
+            android:id="@+id/bindTextView"
+            style="@style/TextView.Login"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/verifyEditText"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="8dip"
+            android:text="绑 定" />
+
+    </RelativeLayout>
+
+</LinearLayout>

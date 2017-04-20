@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/verifyRelativeLayout"
+        style="@style/Layout.Main"
+        android:padding="64dip">
+
+        <EditText
+            android:id="@+id/mobileEditText"
+            style="@style/EditText.Username"
+            android:hint="请输入手机号码" />
+
+        <TextView
+            android:id="@+id/getTextView"
+            style="@style/TextView.Login"
+            android:layout_width="48dip"
+            android:layout_height="24dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="12dip"
+            android:text="获取"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/verifyEditText"
+            style="@style/EditText.Username"
+            android:layout_below="@+id/mobileEditText"
+            android:hint="请输入验证码" />
+
+        <TextView
+            android:id="@+id/verifyTextView"
+            style="@style/TextView.Login"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/verifyEditText"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="8dip"
+            android:text="验 证" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/inputRelativeLayout"
+        style="@style/Layout.Main"
+        android:padding="64dip"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            style="@style/EditText.Username" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            style="@style/EditText.Password"
+            android:layout_below="@+id/usernameEditText"
+            android:hint="请输入密码" />
+
+        <EditText
+            android:id="@+id/passwordRepeatEditText"
+            style="@style/EditText.Password"
+            android:layout_below="@+id/passwordEditText"
+            android:hint="重复密码" />
+
+        <EditText
+            android:id="@+id/nicknameEditText"
+            style="@style/EditText.Username"
+            android:layout_below="@+id/passwordRepeatEditText"
+            android:hint="来个昵称吧" />
+
+        <RadioButton
+            android:id="@+id/boyRadioButton"
+            style="@style/RadioButton.Reg"
+            android:layout_below="@+id/nicknameEditText"
+            android:text="我是男生" />
+
+        <RadioButton
+            android:id="@+id/girlRadioButton"
+            style="@style/RadioButton.Reg"
+            android:layout_below="@+id/nicknameEditText"
+            android:layout_marginLeft="12dip"
+            android:layout_marginStart="12dip"
+            android:layout_toEndOf="@+id/boyRadioButton"
+            android:layout_toRightOf="@+id/boyRadioButton"
+            android:text="我是女生" />
+
+        <TextView
+            android:id="@+id/registerTextView"
+            style="@style/TextView.Login"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/boyRadioButton"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="4dip"
+            android:text="注 册" />
+
+    </RelativeLayout>
+
+</LinearLayout>

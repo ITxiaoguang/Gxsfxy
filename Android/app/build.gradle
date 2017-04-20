@@ -1,0 +1,90 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "top.yokey.gxsfxy"
+        minSdkVersion 11
+        targetSdkVersion 25
+        versionCode 11
+        versionName "1.1"
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file('yokey.store')
+            storePassword '215405880'
+            keyPassword '215405880'
+            keyAlias 'yokey'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+repositories {
+
+    flatDir {
+        dirs 'libs'
+    }
+
+}
+
+dependencies {
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleDynamicVersion
+    compile 'com.github.w446108264:ScrollableLayout:+'
+    //noinspection GradleDynamicVersion
+    compile 'com.android.support:appcompat-v7:+'
+    //noinspection GradleDynamicVersion
+    compile 'com.android.support:cardview-v7:+'
+    //noinspection GradleDynamicVersion
+    compile 'com.android.support:support-v4:+'
+    //noinspection GradleDynamicVersion
+    compile 'com.umeng.analytics:analytics:+'
+    //noinspection GradleDynamicVersion
+    compile 'com.google.zxing:android-core:+'
+    //noinspection GradleDynamicVersion
+    compile 'com.android.support:design:+'
+    //noinspection GradleDynamicVersion
+    compile 'com.commit451:PhotoView:+'
+    //noinspection GradleDynamicVersion
+    compile 'com.google.zxing:core:+'
+    compile(name: 'SMSSDK', ext: 'aar')
+    compile files('libs/JPush.jar')
+    compile files('libs/Image.jar')
+    compile files('libs/Jsoup.jar')
+    compile files('libs/AFinal.jar')
+    compile files('libs/MobTools.jar')
+    compile files('libs/AMapSearch.jar')
+    compile files('libs/AMap2DMap.jar')
+    compile files('libs/AMapLocation.jar')
+    compile files('libs/MobCommons.jar')
+    compile files('libs/ShareSDKQQ.jar')
+    compile files('libs/ShareSDKCore.jar')
+    compile files('libs/ShareSDKEmail.jar')
+    compile files('libs/ShareSDKQZone.jar')
+    compile files('libs/ShareSDKWechat.jar')
+    compile files('libs/ShareSDKSinaWeibo.jar')
+    compile files('libs/ShareSDKWechatCore.jar')
+    compile files('libs/ShareSDKShortMessage.jar')
+    compile files('libs/ShareSDKWechatMoments.jar')
+    compile files('libs/ShareSDKWechatFavorite.jar')
+
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScrollView"
+    style="@style/ScrollView.Main">
+
+    <LinearLayout style="@style/Layout.Linear">
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                android:id="@+id/userCountTextView"
+                style="@style/TextView.Mine" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                android:id="@+id/userRegTextView"
+                style="@style/TextView.Mine" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                android:id="@+id/userLoginTextView"
+                style="@style/TextView.Mine" />
+
+        </LinearLayout>
+
+        <View style="@style/View.Line" />
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                android:id="@+id/dynamicCountTextView"
+                style="@style/TextView.Mine" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                android:id="@+id/newsCountTextView"
+                style="@style/TextView.Mine" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                android:id="@+id/uploadCountTextView"
+                style="@style/TextView.Mine" />
+
+        </LinearLayout>
+
+        <View style="@style/View.Line" />
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                android:id="@+id/commentCountTextView"
+                style="@style/TextView.Mine" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                android:id="@+id/praiseCountTextView"
+                style="@style/TextView.Mine" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                android:id="@+id/followCountTextView"
+                style="@style/TextView.Mine" />
+
+        </LinearLayout>
+
+        <View style="@style/View.Line8" />
+
+        <TextView
+            android:id="@+id/messageTitleTextView"
+            style="@style/TextView.TitleLeft"
+            android:drawableEnd="@mipmap/ic_dot_right"
+            android:drawableRight="@mipmap/ic_dot_right"
+            android:text="管理团队留言" />
+
+        <View style="@style/View.Line" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/messageListView"
+            style="@style/ListView.Main" />
+
+        <View style="@style/View.Line8" />
+
+        <TextView
+            android:id="@+id/newsTitleTextView"
+            style="@style/TextView.TitleLeft"
+            android:drawableEnd="@mipmap/ic_nav_browser_refresh"
+            android:drawableRight="@mipmap/ic_nav_browser_refresh"
+            android:text="新闻更新" />
+
+        <View style="@style/View.Line" />
+
+        <TextView
+            android:id="@+id/newsUpdateTextView"
+            style="@style/TextView.Content"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

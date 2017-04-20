@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainRelativeLayout"
+    style="@style/Layout.HeightWrap"
+    android:background="@drawable/selector_color_white_add">
+
+    <TextView
+        android:id="@+id/letterTextView"
+        android:layout_width="match_parent"
+        android:layout_height="24dip"
+        android:background="@color/background"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip" />
+
+    <ImageView
+        android:id="@+id/avatarImageView"
+        style="@style/ImageView.ItemAvatar"
+        android:layout_width="44dip"
+        android:layout_height="44dip"
+        android:layout_below="@+id/letterTextView"
+        android:layout_marginBottom="8dip"
+        android:layout_marginEnd="8dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginStart="16dip"
+        android:layout_marginTop="8dip"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/nicknameTextView"
+        style="@style/TextView.ItemNickname"
+        android:layout_alignTop="@+id/avatarImageView"
+        android:layout_toEndOf="@+id/avatarImageView"
+        android:layout_toRightOf="@+id/avatarImageView" />
+
+    <ImageView
+        android:id="@+id/genderImageView"
+        style="@style/ImageView.Gender"
+        android:layout_alignBottom="@+id/nicknameTextView"
+        android:layout_alignTop="@+id/nicknameTextView"
+        android:layout_toEndOf="@+id/nicknameTextView"
+        android:layout_toRightOf="@+id/nicknameTextView"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/signTextView"
+        style="@style/TextView.ItemNickname"
+        android:layout_below="@+id/nicknameTextView"
+        android:layout_marginTop="2dip"
+        android:layout_toEndOf="@+id/avatarImageView"
+        android:layout_toRightOf="@+id/avatarImageView"
+        android:ellipsize="end"
+        android:maxLength="16"
+        android:textColor="@color/greyAdd"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/followTextView"
+        style="@style/TextView.ItemFollow"
+        android:layout_alignParentTop="false"
+        android:layout_alignTop="@+id/avatarImageView"
+        android:layout_marginEnd="8dip"
+        android:layout_marginRight="8dip" />
+
+</RelativeLayout>

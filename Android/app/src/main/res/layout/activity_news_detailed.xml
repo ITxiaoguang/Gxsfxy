@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.Main">
+
+    <include
+        android:id="@+id/toolbarInclude"
+        layout="@layout/include_toolbar" />
+
+    <top.yokey.gxsfxy.control.CustomScrollView
+        android:id="@+id/mainScrollView"
+        style="@style/ScrollView.Main"
+        android:layout_above="@+id/lineView"
+        android:layout_below="@+id/toolbarInclude">
+
+        <LinearLayout style="@style/Layout.Linear">
+
+            <WebView
+                android:id="@+id/mainWebView"
+                style="@style/WebView.Main" />
+
+            <TextView
+                android:id="@+id/commentTextView"
+                style="@style/TextView.TitleLeft"
+                android:background="@color/whiteAdd"
+                android:text="评论列表" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/mainListView"
+                style="@style/ListView.Wrap" />
+
+        </LinearLayout>
+
+    </top.yokey.gxsfxy.control.CustomScrollView>
+
+    <View
+        android:id="@+id/lineView"
+        style="@style/View.Line"
+        android:layout_above="@+id/inputInclude" />
+
+    <include
+        android:id="@+id/inputInclude"
+        layout="@layout/include_input_detailed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

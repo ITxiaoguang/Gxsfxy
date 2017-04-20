@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Linear">
+
+    <include layout="@layout/include_toolbar" />
+
+    <com.scrollablelayout.ScrollableLayout
+        android:id="@+id/mainScrollableLayout"
+        style="@style/ScrollView.Main">
+
+        <RelativeLayout
+            style="@style/Layout.HeightWrap"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:paddingBottom="16dip"
+            android:paddingTop="8dip">
+
+            <ImageView
+                android:id="@+id/moneyImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/ic_property_points"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/moneyTextView"
+                style="@style/TextView.White"
+                android:layout_below="@+id/moneyImageView" />
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/TextView.TitleLeft"
+            android:layout_height="40dip"
+            android:text="积分加减记录" />
+
+        <View style="@style/View.Line" />
+
+        <include layout="@layout/include_list_view" />
+
+    </com.scrollablelayout.ScrollableLayout>
+
+</LinearLayout>

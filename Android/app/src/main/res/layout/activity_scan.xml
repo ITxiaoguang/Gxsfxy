@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.Main">
+
+    <SurfaceView
+        android:id="@+id/mainSurfaceView"
+        style="@style/SurfaceView.Main" />
+
+    <top.yokey.gxsfxy.zxing.view.ViewfinderView
+        android:id="@+id/mainViewfinderView"
+        style="@style/ViewfinderView.Main" />
+
+    <include
+        android:id="@+id/toolbarInclude"
+        layout="@layout/include_toolbar" />
+
+</RelativeLayout>

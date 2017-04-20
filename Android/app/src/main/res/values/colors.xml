@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="main">#115FB2</color>
+    <color name="mainAdd">#004DA1</color>
+    <color name="mainSub">#226FC3</color>
+
+    <color name="textNormal">#929292</color>
+    <color name="textPress">#1A7FCF</color>
+    <color name="background">#F0F0F0</color>
+    <color name="backgroundContent">#66000000</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="whiteAdd">#F3F3F3</color>
+    <color name="black">#000000</color>
+    <color name="blackSub">#333333</color>
+    <color name="red">#FF0000</color>
+    <color name="redAdd">#DD0000</color>
+
+    <color name="grey">#999999</color>
+    <color name="greyAdd">#666666</color>
+    <color name="greySub">#cccccc</color>
+
+    <color name="yellow">#F59F18</color>
+    <color name="yellowAdd">#E48E07</color>
+    <color name="yellowSub">#F6AF29</color>
+
+    <color name="pink">#E38A8A</color>
+    <color name="pinkAdd">#E38A8A</color>
+    <color name="pinkSub">#F49B9B</color>
+
+    <color name="boy">#57A8F2</color>
+    <color name="girl">#FBA69D</color>
+    <color name="boHeLv">#8CD7A2</color>
+    <color name="cheng">#F1A68A</color>
+    <color name="cyan">#88D2DD</color>
+    <color name="fen">#D69CA0</color>
+    <color name="kafei">#C9A39D</color>
+    <color name="lan">#67C0E5</color>
+    <color name="lv">#9FDD61</color>
+    <color name="molan">#91B2D6</color>
+    <color name="tao">#E696B4</color>
+    <color name="zi">#B5A3D9</color>
+    <color name="tuhuang">#E2C691</color>
+
+</resources>

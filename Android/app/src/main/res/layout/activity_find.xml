@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView.Main">
+
+    <LinearLayout style="@style/Layout.Linear">
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                android:id="@+id/shopTextView"
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_shop"
+                android:text="积分商城" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                android:id="@+id/friendTextView"
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_friend"
+                android:text="好友推荐" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+        </LinearLayout>
+
+        <View style="@style/View.Line" />
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+        </LinearLayout>
+
+        <View style="@style/View.Line" />
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+        </LinearLayout>
+
+        <View style="@style/View.Line" />
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+        </LinearLayout>
+
+        <View style="@style/View.Line" />
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+        </LinearLayout>
+
+        <View style="@style/View.Line" />
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+        </LinearLayout>
+
+        <View style="@style/View.Line" />
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+            <View style="@style/View.LineHor" />
+
+            <TextView
+                style="@style/TextView.Find"
+                android:drawableTop="@mipmap/ic_find_empty" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

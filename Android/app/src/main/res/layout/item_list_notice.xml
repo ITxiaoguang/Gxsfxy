@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRelativeLayout"
+    style="@style/Layout.Item">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/TextView.ItemTitle" />
+
+    <TextView
+        android:id="@+id/commentTextView"
+        style="@style/TextView.ItemTool"
+        android:layout_below="@+id/titleTextView"
+        android:layout_marginTop="8dip"
+        android:drawableLeft="@mipmap/ic_tool_comment"
+        android:drawableStart="@mipmap/ic_tool_comment" />
+
+    <TextView
+        android:id="@+id/praiseTextView"
+        style="@style/TextView.ItemTool"
+        android:layout_alignBottom="@+id/commentTextView"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_toEndOf="@+id/commentTextView"
+        android:layout_toRightOf="@+id/commentTextView"
+        android:drawableLeft="@mipmap/ic_tool_praise"
+        android:drawableStart="@mipmap/ic_tool_praise" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        style="@style/TextView.ItemTool"
+        android:layout_alignBottom="@+id/commentTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip" />
+
+    <View
+        style="@style/View.Item"
+        android:layout_below="@+id/commentTextView" />
+
+</RelativeLayout>

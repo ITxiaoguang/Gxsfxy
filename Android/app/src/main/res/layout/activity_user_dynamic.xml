@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Layout.Main">
+
+    <include
+        android:id="@+id/toolbarInclude"
+        layout="@layout/include_toolbar" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/mainTabLayout"
+        style="@style/Layout.Tab"
+        android:layout_below="@id/toolbarInclude" />
+
+    <View
+        android:id="@+id/lineView"
+        style="@style/View.Line"
+        android:layout_below="@+id/mainTabLayout" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mainViewPager"
+        style="@style/ViewPager.Main"
+        android:layout_below="@+id/lineView" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/createButton"
+        style="@style/Button.Float"
+        app:backgroundTint="@color/main" />
+
+</RelativeLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollView.Main"
+    android:background="@mipmap/bg_schedule"
+    tools:ignore="Overdraw">
+
+    <LinearLayout style="@style/Layout.Linear">
+
+        <RelativeLayout
+            style="@style/Layout.HeightWrap"
+            android:layout_height="220dip">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/mainViewPager"
+                style="@style/ViewPager.Main">
+
+            </android.support.v4.view.ViewPager>
+
+            <TextView
+                android:id="@+id/dot1TextView"
+                style="@style/TextView.DotHome"
+                android:layout_alignTop="@+id/dot2TextView"
+                android:layout_toLeftOf="@+id/dot2TextView"
+                android:layout_toStartOf="@+id/dot2TextView" />
+
+            <TextView
+                android:id="@+id/dot2TextView"
+                style="@style/TextView.DotHome"
+                android:layout_alignTop="@+id/dot3TextView"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_toLeftOf="@+id/dot3TextView"
+                android:layout_toStartOf="@+id/dot3TextView" />
+
+            <TextView
+                android:id="@+id/dot3TextView"
+                style="@style/TextView.DotHome"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="16dip"
+                android:layout_marginRight="16dip"
+                android:layout_marginTop="16dip" />
+
+        </RelativeLayout>
+
+        <View
+            style="@style/View.Line"
+            android:background="@color/greySub" />
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                android:id="@+id/newsTextView"
+                style="@style/TextView.NavHome"
+                android:drawableTop="@mipmap/ic_nav_home_news"
+                android:text="新闻资讯" />
+
+            <View
+                style="@style/View.LineHor"
+                android:background="@color/greySub" />
+
+            <TextView
+                android:id="@+id/noticeTextView"
+                style="@style/TextView.NavHome"
+                android:drawableTop="@mipmap/ic_nav_home_notice"
+                android:text="通知公告" />
+
+            <View
+                style="@style/View.LineHor"
+                android:background="@color/greySub" />
+
+            <TextView
+                android:id="@+id/collegeTextView"
+                style="@style/TextView.NavHome"
+                android:drawableTop="@mipmap/ic_nav_home_college"
+                android:text="二级学院" />
+
+            <View
+                style="@style/View.LineHor"
+                android:background="@color/greySub" />
+
+            <TextView
+                android:id="@+id/associationTextView"
+                style="@style/TextView.NavHome"
+                android:drawableTop="@mipmap/ic_nav_home_association"
+                android:text="学生社团" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/View.Line"
+            android:background="@color/greySub" />
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                android:id="@+id/eduTextView"
+                style="@style/TextView.NavHome"
+                android:drawableTop="@mipmap/ic_nav_home_edu"
+                android:text="教务系统" />
+
+            <View
+                style="@style/View.LineHor"
+                android:background="@color/greySub" />
+
+            <TextView
+                android:id="@+id/phoneTextView"
+                style="@style/TextView.NavHome"
+                android:drawableTop="@mipmap/ic_nav_home_phone"
+                android:text="办公电话" />
+
+            <View
+                style="@style/View.LineHor"
+                android:background="@color/greySub" />
+
+            <TextView
+                android:id="@+id/summaryTextView"
+                style="@style/TextView.NavHome"
+                android:drawableTop="@mipmap/ic_nav_home_summary"
+                android:text="师院概述" />
+
+            <View
+                style="@style/View.LineHor"
+                android:background="@color/greySub" />
+
+            <TextView
+                android:id="@+id/libraryTextView"
+                style="@style/TextView.NavHome"
+                android:drawableTop="@mipmap/ic_nav_home_library"
+                android:text="图书馆" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/View.Line"
+            android:background="@color/greySub" />
+
+        <LinearLayout style="@style/Layout.LinearHor">
+
+            <TextView
+                android:id="@+id/yiBanTextView"
+                style="@style/TextView.NavHome"
+                android:drawableTop="@mipmap/ic_nav_home_yi"
+                android:text="师院易班" />
+
+            <View
+                style="@style/View.LineHor"
+                android:background="@color/greySub" />
+
+            <TextView
+                android:id="@+id/newspaperTextView"
+                style="@style/TextView.NavHome"
+                android:drawableTop="@mipmap/ic_nav_home_newspaper"
+                android:text="师院校报" />
+
+            <View
+                style="@style/View.LineHor"
+                android:background="@color/greySub" />
+
+            <TextView
+                android:id="@+id/mapTextView"
+                style="@style/TextView.NavHome"
+                android:drawableTop="@mipmap/ic_nav_home_map"
+                android:text="校平面图" />
+
+            <View
+                style="@style/View.LineHor"
+                android:background="@color/greySub" />
+
+            <TextView
+                style="@style/TextView.NavHome"
+                android:drawableTop="@mipmap/ic_nav_home_transparent" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/View.Line"
+            android:background="@color/greySub" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRelativeLayout"
+    style="@style/Layout.Item">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        style="@style/TextView.EduCJCXName"
+        android:layout_toLeftOf="@+id/valueTextView"
+        android:layout_toStartOf="@+id/valueTextView" />
+
+    <TextView
+        android:id="@+id/valueTextView"
+        style="@style/TextView.EduCJCXValue" />
+
+    <View
+        style="@style/View.Item"
+        android:layout_below="@+id/nameTextView" />
+
+</RelativeLayout>

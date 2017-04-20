@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<DevInfor>
+
+    <ShareSDK AppKey="145e275fda54e" />
+
+    <SinaWeibo AppKey="" AppSecret="" Enable="true" Id="1" RedirectUrl="http://www.sharesdk.cn"
+        ShareByAppClient="true" SortId="1" />
+
+    <QQ AppId="101330864" AppKey="49e2a8df361ff8464a134963d77d2794" Enable="true" Id="7"
+        ShareByAppClient="true" SortId="7" />
+
+    <QZone AppId="101330864" AppKey="49e2a8df361ff8464a134963d77d2794" Enable="true" Id="3"
+        SortId="3" />
+
+    <Wechat AppId="wx9867c8e338872491" AppSecret="199d424a33658cff73771be41269dfe8"
+        BypassApproval="false" Enable="true" Id="4" SortId="4" />
+
+    <WechatMoments AppId="wx9867c8e338872491" AppSecret="199d424a33658cff73771be41269dfe8"
+        BypassApproval="false" Enable="true" Id="5" SortId="5" />
+
+    <WechatFavorite AppId="wx9867c8e338872491" AppSecret="199d424a33658cff73771be41269dfe8"
+        Enable="true" Id="6" SortId="6" />
+
+    <Email Enable="true" Id="12" SortId="12" />
+
+    <ShortMessage Enable="true" Id="13" SortId="13" />
+
+    <WhatsApp Enable="true" Id="35" SortId="35" />
+
+    <Bluetooth Enable="true" Id="36" SortId="36" />
+
+</DevInfor>

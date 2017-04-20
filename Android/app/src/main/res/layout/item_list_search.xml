@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout.Linear"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/userLine8View"
+        style="@style/View.Line8"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/userTitleTextView"
+        style="@style/TextView.TitleLeft"
+        android:text="用户 >>>"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/userLineView"
+        style="@style/View.Line"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/userRelativeLayout"
+        style="@style/Layout.Item"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/userAvatarImageView"
+            style="@style/ImageView.Avatar"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/userNicknameTextView"
+            style="@style/TextView.ItemNickname"
+            android:layout_toEndOf="@+id/userAvatarImageView"
+            android:layout_toRightOf="@+id/userAvatarImageView" />
+
+        <ImageView
+            android:id="@+id/userGenderImageView"
+            style="@style/ImageView.Gender"
+            android:layout_alignBottom="@+id/userNicknameTextView"
+            android:layout_alignTop="@+id/userNicknameTextView"
+            android:layout_toEndOf="@+id/userNicknameTextView"
+            android:layout_toRightOf="@+id/userNicknameTextView"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/userCollegeTextView"
+            style="@style/TextView.ItemNickname"
+            android:layout_below="@+id/userNicknameTextView"
+            android:layout_marginBottom="2dip"
+            android:layout_marginTop="2dip"
+            android:layout_toEndOf="@+id/userAvatarImageView"
+            android:layout_toRightOf="@+id/userAvatarImageView"
+            android:textColor="@color/greyAdd"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/userSignTextView"
+            style="@style/TextView.ItemNickname"
+            android:layout_below="@+id/userCollegeTextView"
+            android:layout_toEndOf="@+id/userAvatarImageView"
+            android:layout_toRightOf="@+id/userAvatarImageView"
+            android:ellipsize="end"
+            android:maxLength="16"
+            android:textColor="@color/greyAdd"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/userFollowTextView"
+            style="@style/TextView.ItemFollow" />
+
+        <View
+            style="@style/View.Item"
+            android:layout_below="@+id/userAvatarImageView" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/phoneLine8View"
+        style="@style/View.Line8"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/phoneTitleTextView"
+        style="@style/TextView.TitleLeft"
+        android:text="电话 >>>"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/phoneLineView"
+        style="@style/View.Line"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/phoneRelativeLayout"
+        style="@style/Layout.Item"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/phoneMainTextView"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:layout_marginEnd="8dip"
+            android:layout_marginRight="8dip"
+            android:background="@color/main"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/phoneNameTextView"
+            style="@style/TextView.ItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_toEndOf="@+id/phoneMainTextView"
+            android:layout_toLeftOf="@+id/phoneClassTextView"
+            android:layout_toRightOf="@+id/phoneMainTextView"
+            android:layout_toStartOf="@+id/phoneClassTextView" />
+
+        <TextView
+            android:id="@+id/phoneAddressTextView"
+            style="@style/TextView.ItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/phoneNameTextView"
+            android:layout_marginTop="4dip"
+            android:layout_toEndOf="@+id/phoneMainTextView"
+            android:layout_toRightOf="@+id/phoneMainTextView"
+            android:textColor="@color/greyAdd"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/phoneClassTextView"
+            style="@style/TextView.ItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:maxLines="1"
+            android:textColor="@color/greyAdd"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/phoneTypeTextView"
+            style="@style/TextView.ItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/phoneClassTextView"
+            android:layout_marginTop="8dip"
+            android:textColor="@color/greyAdd"
+            android:textSize="12sp" />
+
+        <View
+            style="@style/View.Item"
+            android:layout_below="@+id/phoneMainTextView" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/circleLine8View"
+        style="@style/View.Line8"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/circleTitleTextView"
+        style="@style/TextView.TitleLeft"
+        android:text="圈子 >>>"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/circleEditText"
+        style="@style/EditText.Input"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/circleLineView"
+        style="@style/View.Line"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/circleRelativeLayout"
+        style="@style/Layout.HeightWrap"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:visibility="gone">
+
+        <android.support.v7.widget.CardView
+            style="@style/Layout.HeightWrap"
+            app:cardCornerRadius="2dip"
+            app:cardElevation="2dip"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/circleMainRelativeLayout"
+                style="@style/Layout.Card"
+                android:paddingBottom="4dip">
+
+                <ImageView
+                    android:id="@+id/circleAvatarImageView"
+                    style="@style/ImageView.ItemAvatar"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/circleNicknameTextView"
+                    style="@style/TextView.ItemNickname"
+                    android:layout_toEndOf="@+id/circleAvatarImageView"
+                    android:layout_toRightOf="@+id/circleAvatarImageView" />
+
+                <ImageView
+                    android:id="@+id/circleGenderImageView"
+                    style="@style/ImageView.Gender"
+                    android:layout_alignBottom="@+id/circleNicknameTextView"
+                    android:layout_alignTop="@+id/circleNicknameTextView"
+                    android:layout_toEndOf="@+id/circleNicknameTextView"
+                    android:layout_toRightOf="@+id/circleNicknameTextView"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/circleDeviceTextView"
+                    style="@style/TextView.ItemTime"
+                    android:layout_below="@+id/circleNicknameTextView"
+                    android:layout_toEndOf="@+id/circleAvatarImageView"
+                    android:layout_toRightOf="@+id/circleAvatarImageView"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="2dip" />
+
+                <TextView
+                    android:id="@+id/circleTimeTextView"
+                    style="@style/TextView.ItemTime"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true" />
+
+                <View
+                    android:id="@+id/circleLine1View"
+                    style="@style/View.Line"
+                    android:layout_below="@+id/circleAvatarImageView"
+                    android:layout_marginTop="8dip" />
+
+                <TextView
+                    android:id="@+id/circleContentTextView"
+                    style="@style/TextView.ItemContent"
+                    android:layout_below="@+id/circleLine1View"
+                    android:layout_marginTop="8dip" />
+
+                <LinearLayout
+                    android:id="@+id/circleOneLinearLayout"
+                    style="@style/Layout.LinearHor"
+                    android:layout_below="@+id/circleContentTextView"
+                    android:layout_marginTop="8dip">
+
+                    <ImageView
+                        android:id="@+id/circleOneImageView"
+                        style="@style/ImageView.Content"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:id="@+id/circleTwoImageView"
+                        style="@style/ImageView.Content"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:id="@+id/circleThrImageView"
+                        style="@style/ImageView.Content"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/circleTwoLinearLayout"
+                    style="@style/Layout.LinearHor"
+                    android:layout_below="@+id/circleOneLinearLayout"
+                    android:layout_marginTop="1dip">
+
+                    <ImageView
+                        android:id="@+id/circleFouImageView"
+                        style="@style/ImageView.Content"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:id="@+id/circleFivImageView"
+                        style="@style/ImageView.Content"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:id="@+id/circleSixImageView"
+                        style="@style/ImageView.Content"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/circleThrLinearLayout"
+                    style="@style/Layout.LinearHor"
+                    android:layout_below="@+id/circleTwoLinearLayout"
+                    android:layout_marginTop="1dip">
+
+                    <ImageView
+                        android:id="@+id/circleSevImageView"
+                        style="@style/ImageView.Content"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:id="@+id/circleEigImageView"
+                        style="@style/ImageView.Content"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:id="@+id/circleNigImageView"
+                        style="@style/ImageView.Content"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/circleLocationTextView"
+                    style="@style/TextView.Location"
+                    android:layout_below="@+id/circleThrLinearLayout"
+                    android:drawablePadding="4dip"
+                    android:padding="0dip"
+                    android:textSize="12sp" />
+
+                <View
+                    android:id="@+id/circleLine2View"
+                    style="@style/View.Line"
+                    android:layout_below="@+id/circleLocationTextView" />
+
+                <LinearLayout
+                    style="@style/Layout.LinearHor"
+                    android:layout_height="32dip"
+                    android:layout_below="@+id/circleLine2View">
+
+                    <top.yokey.gxsfxy.control.CenterTextView
+                        android:id="@+id/circleForwardTextView"
+                        style="@style/TextView.ItemTool"
+                        android:layout_height="32dip"
+                        android:drawableLeft="@mipmap/ic_tool_share"
+                        android:drawableStart="@mipmap/ic_tool_share"
+                        android:text="转发" />
+
+                    <View style="@style/View.LineHor" />
+
+                    <top.yokey.gxsfxy.control.CenterTextView
+                        android:id="@+id/circleCommentTextView"
+                        style="@style/TextView.ItemTool"
+                        android:layout_height="32dip"
+                        android:drawableLeft="@mipmap/ic_tool_comment"
+                        android:drawableStart="@mipmap/ic_tool_comment" />
+
+                    <View style="@style/View.LineHor" />
+
+                    <top.yokey.gxsfxy.control.CenterTextView
+                        android:id="@+id/circlePraiseTextView"
+                        style="@style/TextView.ItemTool"
+                        android:layout_height="32dip"
+                        android:drawableLeft="@mipmap/ic_tool_praise"
+                        android:drawableStart="@mipmap/ic_tool_praise" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/topicLine8View"
+        style="@style/View.Line8"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/topicTitleTextView"
+        style="@style/TextView.TitleLeft"
+        android:text="话题 >>>"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/topicEditText"
+        style="@style/EditText.Input"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/topicLineView"
+        style="@style/View.Line"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/topicRelativeLayout"
+        style="@style/Layout.HeightWrap"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:visibility="gone">
+
+        <android.support.v7.widget.CardView
+            style="@style/Layout.HeightWrap"
+            app:cardCornerRadius="2dip"
+            app:cardElevation="2dip"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/topicMainRelativeLayout"
+                style="@style/Layout.Card"
+                android:paddingBottom="8dip">
+
+                <ImageView
+                    android:id="@+id/topicAvatarImageView"
+                    style="@style/ImageView.ItemAvatar"
+                    android:layout_width="46dip"
+                    android:layout_height="46dip"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/topicNameTextView"
+                    style="@style/TextView.ItemNickname"
+                    android:layout_toEndOf="@+id/topicAvatarImageView"
+                    android:layout_toRightOf="@+id/topicAvatarImageView" />
+
+                <TextView
+                    android:id="@+id/topicContentTextView"
+                    style="@style/TextView.ItemTime"
+                    android:layout_below="@+id/topicNameTextView"
+                    android:layout_marginTop="2dip"
+                    android:layout_toEndOf="@+id/topicAvatarImageView"
+                    android:layout_toRightOf="@+id/topicAvatarImageView"
+                    android:textColor="@color/greyAdd"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/topicLine1View"
+                    style="@style/View.Line"
+                    android:layout_below="@+id/topicAvatarImageView"
+                    android:layout_marginBottom="8dip"
+                    android:layout_marginTop="8dip" />
+
+                <TextView
+                    android:id="@+id/topicInfoTextView"
+                    style="@style/TextView.ItemTime"
+                    android:layout_alignBottom="@+id/topicCommentTextView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/topicCommentTextView"
+                    android:layout_toLeftOf="@+id/topicCommentTextView"
+                    android:layout_toStartOf="@+id/topicCommentTextView"
+                    android:textSize="12sp" />
+
+                <top.yokey.gxsfxy.control.CenterTextView
+                    android:id="@+id/topicCommentTextView"
+                    style="@style/TextView.ItemTool"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/topicLine1View"
+                    android:layout_marginEnd="12dip"
+                    android:layout_marginRight="12dip"
+                    android:layout_toLeftOf="@+id/topicPraiseTextView"
+                    android:layout_toStartOf="@+id/topicPraiseTextView"
+                    android:drawableLeft="@mipmap/ic_tool_comment"
+                    android:drawableStart="@mipmap/ic_tool_comment" />
+
+                <top.yokey.gxsfxy.control.CenterTextView
+                    android:id="@+id/topicPraiseTextView"
+                    style="@style/TextView.ItemTool"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/topicLine1View"
+                    android:drawableLeft="@mipmap/ic_tool_praise"
+                    android:drawableStart="@mipmap/ic_tool_praise" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/activityLine8View"
+        style="@style/View.Line8"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/activityTitleTextView"
+        style="@style/TextView.TitleLeft"
+        android:text="活动 >>>"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/activityLineView"
+        style="@style/View.Line"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/activityRelativeLayout"
+        style="@style/Layout.HeightWrap"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:visibility="gone">
+
+        <android.support.v7.widget.CardView
+            style="@style/Layout.HeightWrap"
+            app:cardCornerRadius="2dip"
+            app:cardElevation="2dip"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/activityMainRelativeLayout"
+                style="@style/Layout.Card"
+                android:padding="8dip">
+
+                <ImageView
+                    android:id="@+id/activityMainImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dip"
+                    android:scaleType="fitXY"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/activityNameTextView"
+                    style="@style/TextView.TitleHome"
+                    android:layout_alignBottom="@+id/activityMainImageView" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</LinearLayout>
